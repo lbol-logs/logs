@@ -1,0 +1,519 @@
+{
+  "LongjingYu": {
+    "Rarity": "Mythic"
+  },
+  "FoyushiBo": {
+    "Rarity": "Mythic"
+  },
+  "HuoshuPiyi": {
+    "Rarity": "Mythic"
+  },
+  "YanZianbei": {
+    "Rarity": "Mythic"
+  },
+  "PenglaiYuzhi": {
+    "Rarity": "Mythic"
+  },
+  "ReimuR": {
+    "Rarity": "Shining",
+    "BaseManaColor": "R"
+  },
+  "ReimuW": {
+    "Rarity": "Shining",
+    "BaseManaColor": "W"
+  },
+  "MarisaB": {
+    "Rarity": "Shining",
+    "BaseManaColor": "B"
+  },
+  "MarisaR": {
+    "Rarity": "Shining",
+    "BaseManaColor": "R"
+  },
+  "SakuyaW": {
+    "Rarity": "Shining",
+    "BaseManaColor": "W"
+  },
+  "SakuyaU": {
+    "Rarity": "Shining",
+    "BaseManaColor": "U"
+  },
+  "CirnoU": {
+    "Rarity": "Shining",
+    "BaseManaColor": "U"
+  },
+  "CirnoG": {
+    "Rarity": "Shining",
+    "BaseManaColor": "G"
+  },
+  "PiaoliangPanzi": {
+    "Rarity": "Shining",
+    "BaseManaColor": "W"
+  },
+  "DatiangouMaifan": {
+    "Rarity": "Shining",
+    "BaseManaColor": "W"
+  },
+  "ClassicWunvfu": {
+    "Rarity": "Shining",
+    "BaseManaColor": "W"
+  },
+  "Bingzhilin": {
+    "Rarity": "Shining",
+    "BaseManaColor": "U"
+  },
+  "ShijieSuipian": {
+    "Rarity": "Shining",
+    "BaseManaColor": "U"
+  },
+  "TianwenWangyuanjing": {
+    "Rarity": "Shining",
+    "BaseManaColor": "U"
+  },
+  "QinaKapian": {
+    "Rarity": "Shining",
+    "BaseManaColor": "B"
+  },
+  "PingzhuangLinghun": {
+    "Rarity": "Shining",
+    "BaseManaColor": "B"
+  },
+  "Laiwating": {
+    "Rarity": "Shining",
+    "BaseManaColor": "B"
+  },
+  "Ganggenier": {
+    "Rarity": "Shining",
+    "BaseManaColor": "R"
+  },
+  "GuizuJiubei": {
+    "Rarity": "Shining",
+    "BaseManaColor": "R"
+  },
+  "AizheHongshi": {
+    "Rarity": "Shining",
+    "BaseManaColor": "R"
+  },
+  "HouhuMen": {
+    "Rarity": "Shining",
+    "BaseManaColor": "G"
+  },
+  "HuashanBaiyaosheng": {
+    "Rarity": "Shining",
+    "BaseManaColor": "G"
+  },
+  "FengshouGuolan": {
+    "Rarity": "Shining",
+    "BaseManaColor": "G"
+  },
+  "Wanbaochui": {
+    "Rarity": "Shining",
+    "BaseManaColor": "C"
+  },
+  "Gongjuxiang": {
+    "Rarity": "Shining",
+    "BaseManaColor": "C"
+  },
+  "YueGujiu": {
+    "Rarity": "Shining",
+    "BaseManaColor": "C"
+  },
+  "Yuerang": {
+    "Rarity": "Shining",
+    "BaseManaColor": "C"
+  },
+  "XianzheShi": {
+    "Rarity": "Shining",
+    "BaseManaColor": "P"
+  },
+  "TaiguGouyu": {
+    "Rarity": "Shining",
+    "BaseManaColor": "P"
+  },
+  "KongbaiKapai": {
+    "Rarity": "Shining",
+    "BaseManaColor": "P"
+  },
+  "HuiyeBaoxiang": {
+    "Rarity": "Shining",
+    "BaseManaColor": "A"
+  },
+  "QipaiYouhua": {
+    "Rarity": "Shining",
+    "BaseManaColor": "A"
+  },
+  "YizangnuoWuzhi": {
+    "Rarity": "Shining",
+    "BaseManaColor": "A"
+  },
+  "QicaiLianhua": {
+    "Rarity": "Shining",
+    "BaseManaColor": "A"
+  },
+  "He3": {
+    "Rarity": "Rare"
+  },
+  "Baota": {
+    "Rarity": "Rare"
+  },
+  "XijianSan": {
+    "Rarity": "Rare"
+  },
+  "Taozi": {
+    "Rarity": "Rare"
+  },
+  "PenzaiYoutan": {
+    "Rarity": "Rare"
+  },
+  "Yuhangfu": {
+    "Rarity": "Rare"
+  },
+  "GanzhuYao": {
+    "Rarity": "Rare"
+  },
+  "Xunlongchi": {
+    "Rarity": "Rare"
+  },
+  "BaochuanMoxing": {
+    "Rarity": "Rare"
+  },
+  "GaodangShoubao": {
+    "Rarity": "Rare"
+  },
+  "WanglingTideng": {
+    "Rarity": "Rare"
+  },
+  "SunhuaiHufu": {
+    "Rarity": "Rare"
+  },
+  "JimuWanju": {
+    "Rarity": "Rare"
+  },
+  "Zuoshan": {
+    "Rarity": "Rare"
+  },
+  "Zijing": {
+    "Rarity": "Rare"
+  },
+  "HuanxiangxiangYuanqi": {
+    "Rarity": "Rare"
+  },
+  "DiyuChepiao": {
+    "Rarity": "Rare"
+  },
+  "ShanliangDengpao": {
+    "Rarity": "Rare"
+  },
+  "ZhanshuDaoliqi": {
+    "Rarity": "Rare"
+  },
+  "Yashemao": {
+    "Rarity": "Rare"
+  },
+  "ShanshuoBishou": {
+    "Rarity": "Rare"
+  },
+  "Yueshan": {
+    "Rarity": "Rare"
+  },
+  "ZhangchibangQiu": {
+    "Rarity": "Rare"
+  },
+  "YueYuyi": {
+    "Rarity": "Rare"
+  },
+  "FeixiangJian": {
+    "Rarity": "Rare"
+  },
+  "YuekuangQiang": {
+    "Rarity": "Rare"
+  },
+  "YichuiPiao": {
+    "Rarity": "Rare"
+  },
+  "Yaoshi": {
+    "Rarity": "Uncommon"
+  },
+  "Mengriji": {
+    "Rarity": "Uncommon"
+  },
+  "Heilianhua": {
+    "Rarity": "Uncommon"
+  },
+  "Bianhua": {
+    "Rarity": "Uncommon"
+  },
+  "Xiangrikui": {
+    "Rarity": "Uncommon"
+  },
+  "LinghunBaoshi": {
+    "Rarity": "Uncommon"
+  },
+  "ZheyangSan": {
+    "Rarity": "Uncommon"
+  },
+  "Pingguo": {
+    "Rarity": "Uncommon"
+  },
+  "PortalGun": {
+    "Rarity": "Uncommon"
+  },
+  "BoreMianju": {
+    "Rarity": "Uncommon"
+  },
+  "HuliMianju": {
+    "Rarity": "Uncommon"
+  },
+  "HuonanMianju": {
+    "Rarity": "Uncommon"
+  },
+  "XiwangMianju": {
+    "Rarity": "Uncommon"
+  },
+  "DiyinLeigu": {
+    "Rarity": "Uncommon"
+  },
+  "LoushuiShaozi": {
+    "Rarity": "Uncommon"
+  },
+  "WeifengHuban": {
+    "Rarity": "Uncommon"
+  },
+  "Zixingche": {
+    "Rarity": "Uncommon"
+  },
+  "Fengrenji": {
+    "Rarity": "Uncommon"
+  },
+  "Shoubiao": {
+    "Rarity": "Uncommon"
+  },
+  "Shouyinji": {
+    "Rarity": "Uncommon"
+  },
+  "SongjingMuyu": {
+    "Rarity": "Uncommon"
+  },
+  "ShoushiYubi": {
+    "Rarity": "Uncommon"
+  },
+  "Saiqianxiang": {
+    "Rarity": "Uncommon"
+  },
+  "Shanbibu": {
+    "Rarity": "Uncommon"
+  },
+  "XiaorenWan": {
+    "Rarity": "Uncommon"
+  },
+  "Tnt": {
+    "Rarity": "Uncommon"
+  },
+  "Modaoshu": {
+    "Rarity": "Uncommon"
+  },
+  "Shaoyao": {
+    "Rarity": "Common"
+  },
+  "Bingkuai": {
+    "Rarity": "Common"
+  },
+  "Shiyou": {
+    "Rarity": "Common"
+  },
+  "JingwanMudan": {
+    "Rarity": "Common"
+  },
+  "Shuye": {
+    "Rarity": "Common"
+  },
+  "TangSan": {
+    "Rarity": "Common"
+  },
+  "Putao": {
+    "Rarity": "Common"
+  },
+  "TiangouMuji": {
+    "Rarity": "Common"
+  },
+  "TiangouRongqiu": {
+    "Rarity": "Common"
+  },
+  "TiangouShanzi": {
+    "Rarity": "Common"
+  },
+  "TiangouXiangji": {
+    "Rarity": "Common"
+  },
+  "TiangouShouji": {
+    "Rarity": "Common"
+  },
+  "TiangouYuyi": {
+    "Rarity": "Common"
+  },
+  "TiangouDunpai": {
+    "Rarity": "Common"
+  },
+  "ShenmiPifeng": {
+    "Rarity": "Common"
+  },
+  "ChuRenou": {
+    "Rarity": "Common"
+  },
+  "Chaidao": {
+    "Rarity": "Common"
+  },
+  "Jiaobu": {
+    "Rarity": "Common"
+  },
+  "ChaojiMogu": {
+    "Rarity": "Common"
+  },
+  "Tuanzi": {
+    "Rarity": "Common"
+  },
+  "JingzhiChaju": {
+    "Rarity": "Common"
+  },
+  "DiannaoPeijian": {
+    "Rarity": "Common"
+  },
+  "HuangyouJiqiren": {
+    "Rarity": "Common"
+  },
+  "Bumengwang": {
+    "Rarity": "Common"
+  },
+  "JudaShaozi": {
+    "Rarity": "Common"
+  },
+  "JiangyouPing": {
+    "Rarity": "Common"
+  },
+  "PingfanDao": {
+    "Rarity": "Common"
+  },
+  "YinzhiHuaibiao": {
+    "Rarity": "Common"
+  },
+  "ShiyanQicai": {
+    "Rarity": "Common"
+  },
+  "HeijiaoChangpian": {
+    "Rarity": "Common"
+  },
+  "Duandai": {
+    "Rarity": "Common"
+  },
+  "Zhuzi": {
+    "Rarity": "Common"
+  },
+  "FaliJingdian": {
+    "Rarity": "Common"
+  },
+  "Huiyuanka": {
+    "Rarity": "Common"
+  },
+  "BoliHufu": {
+    "Rarity": "Common"
+  },
+  "Yushenqian": {
+    "Rarity": "Common"
+  },
+  "Cookie": {
+    "Rarity": "Common"
+  },
+  "ShoubiaoMazuiqiang": {
+    "Rarity": "Common"
+  },
+  "ZhuQingting": {
+    "Rarity": "Common"
+  },
+  "Pijiu": {
+    "Rarity": "Common"
+  },
+  "HeiseBijiben": {
+    "Rarity": "Common"
+  },
+  "Guangjian": {
+    "Rarity": "Common"
+  },
+  "LuoboMoxing": {
+    "Rarity": "Common"
+  },
+  "Moping": {
+    "Rarity": "Common"
+  },
+  "JingboliJing": {
+    "Rarity": "Common"
+  },
+  "Headphone": {
+    "Rarity": "Uncommon"
+  },
+  "ZhinengYinxiang": {
+    "Rarity": "Uncommon"
+  },
+  "MaorongWanju": {
+    "Rarity": "Uncommon"
+  },
+  "LouguanJian": {
+    "Rarity": "Rare"
+  },
+  "WaijieYanjing": {
+    "Rarity": "Rare"
+  },
+  "WaijieYouxiji": {
+    "Rarity": "Uncommon"
+  },
+  "WaijieYanshuang": {
+    "Rarity": "Common"
+  },
+  "JingjieGanzhiyi": {
+    "Rarity": "Mythic"
+  },
+  "Dahuoji": {
+    "Rarity": "Common"
+  },
+  "JingesiYushou": {
+    "Rarity": "Uncommon"
+  },
+  "JingQiXi": {
+    "Rarity": "Common"
+  },
+  "SadinYuebing": {
+    "Rarity": "Uncommon"
+  },
+  "IdolTshirt": {
+    "Rarity": "Uncommon"
+  },
+  "Qingshu": {
+    "Rarity": "Common"
+  },
+  "Dianshiji": {
+    "Rarity": "Rare"
+  },
+  "Xiyiji": {
+    "Rarity": "Rare"
+  },
+  "Bingxiang": {
+    "Rarity": "Rare"
+  },
+  "JuanzengZhengming": {
+    "Rarity": "Rare"
+  },
+  "PulpFiction": {
+    "Rarity": "Uncommon"
+  },
+  "FixBook": {
+    "Rarity": "Uncommon"
+  },
+  "TimeBook": {
+    "Rarity": "Uncommon"
+  },
+  "FirstAidBook": {
+    "Rarity": "Uncommon"
+  },
+  "KongZhanpinhe": {
+    "Rarity": "Common"
+  }
+}

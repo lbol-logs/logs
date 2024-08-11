@@ -1,1 +1,1682 @@
-{}
+{
+  "ReimuAttackR": {
+    "Rarity": "Common"
+  },
+  "ReimuBlockW": {
+    "Rarity": "Common"
+  },
+  "ReimuAttackW": {
+    "Rarity": "Common"
+  },
+  "ReimuBlockR": {
+    "Rarity": "Common"
+  },
+  "YaoguaiBuster": {
+    "Rarity": "Common"
+  },
+  "DoubleJiejie": {
+    "Rarity": "Common"
+  },
+  "Fengmozhen": {
+    "Rarity": "Common"
+  },
+  "Shenyuzha": {
+    "Rarity": "Common"
+  },
+  "YinyangCard": {
+    "Rarity": "Uncommon"
+  },
+  "ShengtianKick": {
+    "Rarity": "Common"
+  },
+  "MengzhiYuzha": {
+    "Rarity": "Common"
+  },
+  "Fengmozhen4": {
+    "Rarity": "Common"
+  },
+  "WunvKongwu": {
+    "Rarity": "Common"
+  },
+  "TuimofuLuanwu": {
+    "Rarity": "Common"
+  },
+  "SuikaOut": {
+    "Rarity": "Common"
+  },
+  "LingfuHuti": {
+    "Rarity": "Common"
+  },
+  "Jinfuzhen": {
+    "Rarity": "Common"
+  },
+  "JingshenYishi": {
+    "Rarity": "Common"
+  },
+  "YinyangBaoyu": {
+    "Rarity": "Common"
+  },
+  "ReimuWeiyan": {
+    "Rarity": "Uncommon"
+  },
+  "ZhujiThreeGod": {
+    "Rarity": "Uncommon"
+  },
+  "OverJingjie": {
+    "Rarity": "Uncommon"
+  },
+  "SmallPanding": {
+    "Rarity": "Uncommon"
+  },
+  "Zhuizongfu": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuFestival": {
+    "Rarity": "Uncommon"
+  },
+  "FengyinYaomo": {
+    "Rarity": "Uncommon"
+  },
+  "DanmuDuijue": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuHeavyAttack": {
+    "Rarity": "Uncommon"
+  },
+  "ReverseJiejie": {
+    "Rarity": "Uncommon"
+  },
+  "Changzhizhen": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuLucky": {
+    "Rarity": "Uncommon"
+  },
+  "ShensheRichang": {
+    "Rarity": "Uncommon"
+  },
+  "TwoBalls": {
+    "Rarity": "Uncommon"
+  },
+  "MojingShanjie": {
+    "Rarity": "Uncommon"
+  },
+  "JiejieAttack": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuShrine": {
+    "Rarity": "Uncommon"
+  },
+  "DoubleDajiejie": {
+    "Rarity": "Uncommon"
+  },
+  "HuanxiangBlock": {
+    "Rarity": "Uncommon"
+  },
+  "MingzhuAntou": {
+    "Rarity": "Uncommon"
+  },
+  "YakongDianxue": {
+    "Rarity": "Uncommon"
+  },
+  "QinggeManwu": {
+    "Rarity": "Uncommon"
+  },
+  "FreeFly": {
+    "Rarity": "Uncommon"
+  },
+  "YinyangXueyin": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuFreeAttack": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuDrink": {
+    "Rarity": "Rare"
+  },
+  "EvilTuiZhi": {
+    "Rarity": "Rare"
+  },
+  "MomentPower": {
+    "Rarity": "Rare"
+  },
+  "Wunvyu": {
+    "Rarity": "Rare"
+  },
+  "TaijiLiangyi": {
+    "Rarity": "Rare"
+  },
+  "ReimuSilence": {
+    "Rarity": "Rare"
+  },
+  "ChuanyueJiejie": {
+    "Rarity": "Rare"
+  },
+  "HuanxiangTouying": {
+    "Rarity": "Rare"
+  },
+  "OutInGap": {
+    "Rarity": "Rare"
+  },
+  "Jiangshen": {
+    "Rarity": "Rare"
+  },
+  "BoliDajiejie": {
+    "Rarity": "Rare"
+  },
+  "HuijuQiankun": {
+    "Rarity": "Rare"
+  },
+  "ReimuInstant": {
+    "Rarity": "Rare"
+  },
+  "DoubleLianhuadie": {
+    "Rarity": "Rare"
+  },
+  "BoliPhantom": {
+    "Rarity": "Rare"
+  },
+  "KuosanJiejie": {
+    "Rarity": "Rare"
+  },
+  "QiqingYishi": {
+    "Rarity": "Uncommon"
+  },
+  "KuosanLingfu": {
+    "Rarity": "Uncommon"
+  },
+  "DanceAroundLake": {
+    "Rarity": "Rare"
+  },
+  "ReimuHuashan": {
+    "Rarity": "Uncommon"
+  },
+  "AutoQumobang": {
+    "Rarity": "Uncommon"
+  },
+  "Qingshan": {
+    "Rarity": "Uncommon"
+  },
+  "GapLady": {
+    "Rarity": "Rare"
+  },
+  "ChunseXiaojing": {
+    "Rarity": "Uncommon"
+  },
+  "ReimuSakura": {
+    "Rarity": "Uncommon"
+  },
+  "SenluoJiejie": {
+    "Rarity": "Rare"
+  },
+  "YinyangQueen": {
+    "Rarity": "Uncommon"
+  },
+  "ShuihuoCard": {
+    "Rarity": "Uncommon"
+  },
+  "FengleiCard": {
+    "Rarity": "Uncommon"
+  },
+  "ShanyuCard": {
+    "Rarity": "Uncommon"
+  },
+  "MarisaAttackB": {
+    "Rarity": "Common"
+  },
+  "MarisaBlockR": {
+    "Rarity": "Common"
+  },
+  "MarisaAttackR": {
+    "Rarity": "Common"
+  },
+  "MarisaBlockB": {
+    "Rarity": "Common"
+  },
+  "CraftPotion": {
+    "Rarity": "Common"
+  },
+  "RedLaser": {
+    "Rarity": "Common"
+  },
+  "Potion": {
+    "Rarity": "Common"
+  },
+  "SatelliteIllusion": {
+    "Rarity": "Common"
+  },
+  "DropBook": {
+    "Rarity": "Common"
+  },
+  "MarisaDraw": {
+    "Rarity": "Common"
+  },
+  "DarkSatellite": {
+    "Rarity": "Common"
+  },
+  "MarisaEat": {
+    "Rarity": "Common"
+  },
+  "ReadyForBurst": {
+    "Rarity": "Common"
+  },
+  "BulletStudy": {
+    "Rarity": "Common"
+  },
+  "AsteroidBelt": {
+    "Rarity": "Common"
+  },
+  "HuojianSaoba": {
+    "Rarity": "Common"
+  },
+  "JinjiBlock": {
+    "Rarity": "Common"
+  },
+  "Alioth": {
+    "Rarity": "Common"
+  },
+  "ScryAttack": {
+    "Rarity": "Uncommon"
+  },
+  "MarisaSteal": {
+    "Rarity": "Uncommon"
+  },
+  "NightSeeStar": {
+    "Rarity": "Uncommon"
+  },
+  "ScryBlock": {
+    "Rarity": "Uncommon"
+  },
+  "ShibaiChanwu": {
+    "Rarity": "Uncommon"
+  },
+  "ShinningPotion": {
+    "Rarity": "Uncommon"
+  },
+  "Yinhe": {
+    "Rarity": "Uncommon"
+  },
+  "StarSky": {
+    "Rarity": "Uncommon"
+  },
+  "PoisonPotion": {
+    "Rarity": "Uncommon"
+  },
+  "LearnAstrology": {
+    "Rarity": "Uncommon"
+  },
+  "PotionJungle": {
+    "Rarity": "Uncommon"
+  },
+  "AccuracyLaser": {
+    "Rarity": "Uncommon"
+  },
+  "RainbowStar": {
+    "Rarity": "Uncommon"
+  },
+  "WinterWarm": {
+    "Rarity": "Uncommon"
+  },
+  "CollectionDefense": {
+    "Rarity": "Uncommon"
+  },
+  "BurstDraw": {
+    "Rarity": "Uncommon"
+  },
+  "StarFantasy": {
+    "Rarity": "Uncommon"
+  },
+  "StarShower": {
+    "Rarity": "Uncommon"
+  },
+  "MarisaHoldCard": {
+    "Rarity": "Uncommon"
+  },
+  "ThrowBigStar": {
+    "Rarity": "Uncommon"
+  },
+  "FireUpBagualu": {
+    "Rarity": "Uncommon"
+  },
+  "ShootMoon": {
+    "Rarity": "Uncommon"
+  },
+  "RunAway": {
+    "Rarity": "Uncommon"
+  },
+  "MixAndShake": {
+    "Rarity": "Uncommon"
+  },
+  "WizardStudy": {
+    "Rarity": "Uncommon"
+  },
+  "ExilePotion": {
+    "Rarity": "Rare"
+  },
+  "EventHorizon": {
+    "Rarity": "Rare"
+  },
+  "PotionDefense": {
+    "Rarity": "Rare"
+  },
+  "UpgradePotion": {
+    "Rarity": "Rare"
+  },
+  "OpenUniverse": {
+    "Rarity": "Rare"
+  },
+  "SuperNova": {
+    "Rarity": "Rare"
+  },
+  "RedGiantStar": {
+    "Rarity": "Rare"
+  },
+  "SolarSystem": {
+    "Rarity": "Rare"
+  },
+  "FinalSpark": {
+    "Rarity": "Rare"
+  },
+  "HuoliQuankai": {
+    "Rarity": "Rare"
+  },
+  "MasterOfCollection": {
+    "Rarity": "Rare"
+  },
+  "ChargingPotion": {
+    "Rarity": "Rare"
+  },
+  "StarlightTaifengSummoner": {
+    "Rarity": "Rare"
+  },
+  "StarlightTaifeng": {
+    "Rarity": "Rare"
+  },
+  "FindCollection": {
+    "Rarity": "Uncommon"
+  },
+  "WhiteLaser": {
+    "Rarity": "Uncommon"
+  },
+  "BlazingStar": {
+    "Rarity": "Rare"
+  },
+  "SplitPotion": {
+    "Rarity": "Rare"
+  },
+  "IceSpark": {
+    "Rarity": "Uncommon"
+  },
+  "ColdPotion": {
+    "Rarity": "Uncommon"
+  },
+  "ChargingToMana": {
+    "Rarity": "Rare"
+  },
+  "DiscardToCharging": {
+    "Rarity": "Rare"
+  },
+  "PatchouliFriend": {
+    "Rarity": "Uncommon"
+  },
+  "MoguMaster": {
+    "Rarity": "Uncommon"
+  },
+  "RedMogu": {
+    "Rarity": "Common"
+  },
+  "GreenMogu": {
+    "Rarity": "Common"
+  },
+  "BlueMogu": {
+    "Rarity": "Common"
+  },
+  "PurpleMogu": {
+    "Rarity": "Common"
+  },
+  "JungleMaster": {
+    "Rarity": "Uncommon"
+  },
+  "ManaJungle": {
+    "Rarity": "Rare"
+  },
+  "SakuyaAttackW": {
+    "Rarity": "Common"
+  },
+  "SakuyaBlockU": {
+    "Rarity": "Common"
+  },
+  "SakuyaAttackU": {
+    "Rarity": "Common"
+  },
+  "SakuyaBlockW": {
+    "Rarity": "Common"
+  },
+  "KnifeBounce": {
+    "Rarity": "Common"
+  },
+  "Lijian": {
+    "Rarity": "Common"
+  },
+  "PrivateVision": {
+    "Rarity": "Common"
+  },
+  "Knife": {
+    "Rarity": "Common"
+  },
+  "SakuyaZeroDefense": {
+    "Rarity": "Common"
+  },
+  "Dejavu": {
+    "Rarity": "Common"
+  },
+  "SakuyaSnow": {
+    "Rarity": "Common"
+  },
+  "CoolMaid": {
+    "Rarity": "Common"
+  },
+  "SakuyaTwiceAttack": {
+    "Rarity": "Common"
+  },
+  "SakuyaGoOut": {
+    "Rarity": "Common"
+  },
+  "SakuyaWeak": {
+    "Rarity": "Common"
+  },
+  "TimeAuraAttack": {
+    "Rarity": "Common"
+  },
+  "SakuyaTea": {
+    "Rarity": "Common"
+  },
+  "DefenseDraw": {
+    "Rarity": "Common"
+  },
+  "AttackMagic": {
+    "Rarity": "Common"
+  },
+  "SakuyaSleep": {
+    "Rarity": "Uncommon"
+  },
+  "CleanRoom": {
+    "Rarity": "Uncommon"
+  },
+  "ExileMagic": {
+    "Rarity": "Uncommon"
+  },
+  "SilverJump": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaInvestigate": {
+    "Rarity": "Uncommon"
+  },
+  "GainKnife": {
+    "Rarity": "Uncommon"
+  },
+  "SilverBullet": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaDefenseRetain": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaAttackX": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaDraw": {
+    "Rarity": "Uncommon"
+  },
+  "VampireHunter": {
+    "Rarity": "Uncommon"
+  },
+  "PrepareParty": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaGraze": {
+    "Rarity": "Uncommon"
+  },
+  "MihuanJack": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaClock": {
+    "Rarity": "Uncommon"
+  },
+  "LightSpeed": {
+    "Rarity": "Uncommon"
+  },
+  "TimeLord": {
+    "Rarity": "Uncommon"
+  },
+  "DangerousMagician": {
+    "Rarity": "Uncommon"
+  },
+  "ShengquanZaiwo": {
+    "Rarity": "Uncommon"
+  },
+  "LunaDial": {
+    "Rarity": "Uncommon"
+  },
+  "DropToKnife": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaFuneral": {
+    "Rarity": "Uncommon"
+  },
+  "FakeTimeline": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaShop": {
+    "Rarity": "Rare"
+  },
+  "SilverBlade": {
+    "Rarity": "Rare"
+  },
+  "KnifeAim": {
+    "Rarity": "Rare"
+  },
+  "KnifeHell": {
+    "Rarity": "Rare"
+  },
+  "BackOfKnife": {
+    "Rarity": "Rare"
+  },
+  "GroupOfKnife": {
+    "Rarity": "Rare"
+  },
+  "BladePower": {
+    "Rarity": "Rare"
+  },
+  "ClockCorpse": {
+    "Rarity": "Rare"
+  },
+  "StopTime": {
+    "Rarity": "Rare"
+  },
+  "LoyalMaid": {
+    "Rarity": "Rare"
+  },
+  "TimeWalk": {
+    "Rarity": "Rare"
+  },
+  "LunaClock": {
+    "Rarity": "Rare"
+  },
+  "SpecialClock": {
+    "Rarity": "Rare"
+  },
+  "SakuyaDio": {
+    "Rarity": "Rare"
+  },
+  "PerfectServant": {
+    "Rarity": "Rare"
+  },
+  "BackToFuture": {
+    "Rarity": "Uncommon"
+  },
+  "EvilMaid": {
+    "Rarity": "Uncommon"
+  },
+  "ExtraTurnEveryone": {
+    "Rarity": "Rare"
+  },
+  "TunnelEffect": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaKiller": {
+    "Rarity": "Uncommon"
+  },
+  "BrokenTimeline": {
+    "Rarity": "Rare"
+  },
+  "AutoKnife": {
+    "Rarity": "Rare"
+  },
+  "SakuyaDetective": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaSpeedup": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaUsage": {
+    "Rarity": "Rare"
+  },
+  "SakuyaUsage2": {
+    "Rarity": "Rare"
+  },
+  "MeilingFriend": {
+    "Rarity": "Uncommon"
+  },
+  "UnlimitedTime": {
+    "Rarity": "Rare"
+  },
+  "CirnoAttackU": {
+    "Rarity": "Common"
+  },
+  "CirnoBlockG": {
+    "Rarity": "Common"
+  },
+  "CirnoAttackG": {
+    "Rarity": "Common"
+  },
+  "CirnoBlockU": {
+    "Rarity": "Common"
+  },
+  "IceLance": {
+    "Rarity": "Common"
+  },
+  "FreezeBullet": {
+    "Rarity": "Common"
+  },
+  "DayaojingFriend": {
+    "Rarity": "Common"
+  },
+  "IceWing": {
+    "Rarity": "Common"
+  },
+  "IceBolt": {
+    "Rarity": "Common"
+  },
+  "Opt": {
+    "Rarity": "Common"
+  },
+  "OptBottom": {
+    "Rarity": "Common"
+  },
+  "MaidFriend": {
+    "Rarity": "Common"
+  },
+  "ShiverArmor": {
+    "Rarity": "Common"
+  },
+  "FrostGarden": {
+    "Rarity": "Common"
+  },
+  "GlacialSpike": {
+    "Rarity": "Common"
+  },
+  "CoolBreeze": {
+    "Rarity": "Common"
+  },
+  "BlueRose": {
+    "Rarity": "Common"
+  },
+  "SummerIce": {
+    "Rarity": "Common"
+  },
+  "CirnoInForest": {
+    "Rarity": "Common"
+  },
+  "CirnoConsider": {
+    "Rarity": "Common"
+  },
+  "CirnoDraw": {
+    "Rarity": "Uncommon"
+  },
+  "FreezeToIce": {
+    "Rarity": "Uncommon"
+  },
+  "IceLaser": {
+    "Rarity": "Uncommon"
+  },
+  "CirnoFire": {
+    "Rarity": "Uncommon"
+  },
+  "FreezeRiver": {
+    "Rarity": "Uncommon"
+  },
+  "ColdBreath": {
+    "Rarity": "Uncommon"
+  },
+  "LeidiFriend": {
+    "Rarity": "Uncommon"
+  },
+  "ColdSnap": {
+    "Rarity": "Uncommon"
+  },
+  "IceSaber": {
+    "Rarity": "Uncommon"
+  },
+  "IceBarrier": {
+    "Rarity": "Uncommon"
+  },
+  "ZeroK": {
+    "Rarity": "Uncommon"
+  },
+  "Blizzard": {
+    "Rarity": "Uncommon"
+  },
+  "FrozenThrone": {
+    "Rarity": "Uncommon"
+  },
+  "DoubleMana": {
+    "Rarity": "Uncommon"
+  },
+  "Tether": {
+    "Rarity": "Uncommon"
+  },
+  "FairyWrath": {
+    "Rarity": "Uncommon"
+  },
+  "FairyTeam": {
+    "Rarity": "Uncommon"
+  },
+  "LarvaFriend": {
+    "Rarity": "Uncommon"
+  },
+  "FriendDraw": {
+    "Rarity": "Uncommon"
+  },
+  "LilyFriend": {
+    "Rarity": "Uncommon"
+  },
+  "CallFriends": {
+    "Rarity": "Uncommon"
+  },
+  "FairyTree": {
+    "Rarity": "Uncommon"
+  },
+  "MoreFriends": {
+    "Rarity": "Uncommon"
+  },
+  "FairyOnIce": {
+    "Rarity": "Uncommon"
+  },
+  "FruitShake": {
+    "Rarity": "Uncommon"
+  },
+  "SummerParty": {
+    "Rarity": "Uncommon"
+  },
+  "ColdChain": {
+    "Rarity": "Rare"
+  },
+  "FrozenOrb": {
+    "Rarity": "Rare"
+  },
+  "IceBlock": {
+    "Rarity": "Rare"
+  },
+  "DeepFreeze": {
+    "Rarity": "Rare"
+  },
+  "IceMatrix": {
+    "Rarity": "Rare"
+  },
+  "InstantFreeze": {
+    "Rarity": "Rare"
+  },
+  "ColdHearted": {
+    "Rarity": "Rare"
+  },
+  "BestFriend": {
+    "Rarity": "Rare"
+  },
+  "CirnoEcho": {
+    "Rarity": "Rare"
+  },
+  "FairyAllOut": {
+    "Rarity": "Rare"
+  },
+  "LarvaDefense": {
+    "Rarity": "Rare"
+  },
+  "MinengZhuru": {
+    "Rarity": "Rare"
+  },
+  "GatherFairy": {
+    "Rarity": "Rare"
+  },
+  "ForeverCool": {
+    "Rarity": "Rare"
+  },
+  "HualiIce": {
+    "Rarity": "Rare"
+  },
+  "ChooseFriend": {
+    "Rarity": "Uncommon"
+  },
+  "LunaFriend": {
+    "Rarity": "Uncommon"
+  },
+  "WhiteWorld": {
+    "Rarity": "Rare"
+  },
+  "PlayWithWaste": {
+    "Rarity": "Uncommon"
+  },
+  "StarFriend": {
+    "Rarity": "Uncommon"
+  },
+  "FairyTrick": {
+    "Rarity": "Rare"
+  },
+  "BrainOverclock": {
+    "Rarity": "Uncommon"
+  },
+  "SunnyFriend": {
+    "Rarity": "Uncommon"
+  },
+  "Xiguadao": {
+    "Rarity": "Rare"
+  },
+  "ClownpieceFriend": {
+    "Rarity": "Rare"
+  },
+  "YoumuAttack": {
+    "Rarity": "Common"
+  },
+  "YukariFlyObject": {
+    "Rarity": "Common"
+  },
+  "BailianJingang": {
+    "Rarity": "Common"
+  },
+  "YunyouShengdi": {
+    "Rarity": "Common"
+  },
+  "NazrinBaota": {
+    "Rarity": "Common"
+  },
+  "RingoJinghua": {
+    "Rarity": "Uncommon"
+  },
+  "HuashanQingjing": {
+    "Rarity": "Uncommon"
+  },
+  "SanaeSpirit": {
+    "Rarity": "Uncommon"
+  },
+  "BailianNingshen": {
+    "Rarity": "Uncommon"
+  },
+  "PrismriverWhite": {
+    "Rarity": "Uncommon"
+  },
+  "HuiyinRemove": {
+    "Rarity": "Uncommon"
+  },
+  "ShenziUpgradeAll": {
+    "Rarity": "Rare"
+  },
+  "HuiyeMarblePhantasm": {
+    "Rarity": "Rare"
+  },
+  "YukariSwarm": {
+    "Rarity": "Rare"
+  },
+  "YuetuInvincible": {
+    "Rarity": "Rare"
+  },
+  "YuetuYuyi": {
+    "Rarity": "Rare"
+  },
+  "BlueZeroAttack": {
+    "Rarity": "Common"
+  },
+  "PlayWithWater": {
+    "Rarity": "Common"
+  },
+  "KokoroAttack": {
+    "Rarity": "Common"
+  },
+  "QinglanAttack": {
+    "Rarity": "Common"
+  },
+  "NitoriUnderWater": {
+    "Rarity": "Common"
+  },
+  "ShuimiUnderWater": {
+    "Rarity": "Uncommon"
+  },
+  "HatateDiscard": {
+    "Rarity": "Uncommon"
+  },
+  "QingeDraw": {
+    "Rarity": "Uncommon"
+  },
+  "HuiyinMoreDraw": {
+    "Rarity": "Uncommon"
+  },
+  "WaterPrincess": {
+    "Rarity": "Uncommon"
+  },
+  "YonglinDraw": {
+    "Rarity": "Rare"
+  },
+  "DoremyDuplicate": {
+    "Rarity": "Rare"
+  },
+  "GuijiZaoxingYuan": {
+    "Rarity": "Rare"
+  },
+  "GuijiZaoxingFang": {
+    "Rarity": "Rare"
+  },
+  "GuijiZaoxingHu": {
+    "Rarity": "Rare"
+  },
+  "YonglinCard": {
+    "Rarity": "Rare"
+  },
+  "FakeMoon": {
+    "Rarity": "Rare"
+  },
+  "Shadow": {
+    "Rarity": "Common"
+  },
+  "RumiaBlock": {
+    "Rarity": "Common"
+  },
+  "YuyukoDebuff": {
+    "Rarity": "Common"
+  },
+  "ShannvAttack": {
+    "Rarity": "Common"
+  },
+  "SatoriAttack": {
+    "Rarity": "Common"
+  },
+  "MystiaSing": {
+    "Rarity": "Uncommon"
+  },
+  "SatoriMemory": {
+    "Rarity": "Uncommon"
+  },
+  "ShannvAbility": {
+    "Rarity": "Uncommon"
+  },
+  "XiaoemoBook": {
+    "Rarity": "Uncommon"
+  },
+  "PrismriverBlack": {
+    "Rarity": "Uncommon"
+  },
+  "BlackHorseZui": {
+    "Rarity": "Uncommon"
+  },
+  "HinaAttack": {
+    "Rarity": "Uncommon"
+  },
+  "RemiliaFate": {
+    "Rarity": "Rare"
+  },
+  "BailianBlack": {
+    "Rarity": "Rare"
+  },
+  "GrimoireStudy": {
+    "Rarity": "Rare"
+  },
+  "TrueMoon": {
+    "Rarity": "Rare"
+  },
+  "YinglangHowl": {
+    "Rarity": "Common"
+  },
+  "RemiliaJizao": {
+    "Rarity": "Common"
+  },
+  "MeihongAttack": {
+    "Rarity": "Common"
+  },
+  "LeiguAttack": {
+    "Rarity": "Common"
+  },
+  "HuaBlock": {
+    "Rarity": "Common"
+  },
+  "BailianPower": {
+    "Rarity": "Uncommon"
+  },
+  "MeilingBlock": {
+    "Rarity": "Uncommon"
+  },
+  "SuikaBigball": {
+    "Rarity": "Uncommon"
+  },
+  "MeihongFire": {
+    "Rarity": "Uncommon"
+  },
+  "PrismriverRed": {
+    "Rarity": "Uncommon"
+  },
+  "YongyiAttack": {
+    "Rarity": "Rare"
+  },
+  "RemiliaBat": {
+    "Rarity": "Rare"
+  },
+  "FlanFirepower": {
+    "Rarity": "Rare"
+  },
+  "MeihongPower": {
+    "Rarity": "Rare"
+  },
+  "SummerFlower": {
+    "Rarity": "Common"
+  },
+  "PatchouliGreenAttack": {
+    "Rarity": "Common"
+  },
+  "RangziSeed": {
+    "Rarity": "Common"
+  },
+  "AhongMana": {
+    "Rarity": "Common"
+  },
+  "RangziFanshu": {
+    "Rarity": "Common"
+  },
+  "SunflowerDefense": {
+    "Rarity": "Common"
+  },
+  "YouxiangMoon": {
+    "Rarity": "Uncommon"
+  },
+  "DizangLove": {
+    "Rarity": "Uncommon"
+  },
+  "YuyukoSing": {
+    "Rarity": "Uncommon"
+  },
+  "DanmuJade": {
+    "Rarity": "Uncommon"
+  },
+  "YouxiangAttack": {
+    "Rarity": "Uncommon"
+  },
+  "TakaneDefense": {
+    "Rarity": "Uncommon"
+  },
+  "GreenLotus": {
+    "Rarity": "Rare"
+  },
+  "LimaoSchool": {
+    "Rarity": "Rare"
+  },
+  "MorphBird": {
+    "Rarity": "Rare"
+  },
+  "MorphDog": {
+    "Rarity": "Rare"
+  },
+  "MorphFrog": {
+    "Rarity": "Rare"
+  },
+  "MorphMan": {
+    "Rarity": "Rare"
+  },
+  "HuiyeAttack": {
+    "Rarity": "Rare"
+  },
+  "HuiyeMana": {
+    "Rarity": "Rare"
+  },
+  "WManaCard": {
+    "Rarity": "Common"
+  },
+  "UManaCard": {
+    "Rarity": "Common"
+  },
+  "BManaCard": {
+    "Rarity": "Common"
+  },
+  "RManaCard": {
+    "Rarity": "Common"
+  },
+  "GManaCard": {
+    "Rarity": "Common"
+  },
+  "CManaCard": {
+    "Rarity": "Common"
+  },
+  "PManaCard": {
+    "Rarity": "Uncommon"
+  },
+  "Astrology": {
+    "Rarity": "Common"
+  },
+  "Xiaozhuo": {
+    "Rarity": "Common"
+  },
+  "Shoot": {
+    "Rarity": "Common"
+  },
+  "Boundary": {
+    "Rarity": "Common"
+  },
+  "ShopAttack": {
+    "Rarity": "Uncommon"
+  },
+  "ShopDefense": {
+    "Rarity": "Uncommon"
+  },
+  "ShopSearch": {
+    "Rarity": "Rare"
+  },
+  "MoonSea": {
+    "Rarity": "Common"
+  },
+  "FengjiAttack": {
+    "Rarity": "Uncommon"
+  },
+  "MoonWorld": {
+    "Rarity": "Rare"
+  },
+  "YijiEarthSpike": {
+    "Rarity": "Uncommon"
+  },
+  "YijiPurify": {
+    "Rarity": "Uncommon"
+  },
+  "YijiGraze": {
+    "Rarity": "Uncommon"
+  },
+  "YijiFirepower": {
+    "Rarity": "Rare"
+  },
+  "HuiyinAttack": {
+    "Rarity": "Common"
+  },
+  "ReadBook": {
+    "Rarity": "Common"
+  },
+  "Panzi": {
+    "Rarity": "Uncommon"
+  },
+  "ShuimuBlock": {
+    "Rarity": "Uncommon"
+  },
+  "TiangouOrder": {
+    "Rarity": "Uncommon"
+  },
+  "TianziRock": {
+    "Rarity": "Uncommon"
+  },
+  "YijiuDraw": {
+    "Rarity": "Rare"
+  },
+  "SeeFengshui": {
+    "Rarity": "Rare"
+  },
+  "LanCard": {
+    "Rarity": "Rare"
+  },
+  "RainbowMarket": {
+    "Rarity": "Rare"
+  },
+  "NiuqiDefense": {
+    "Rarity": "Common"
+  },
+  "XiaodingKill": {
+    "Rarity": "Common"
+  },
+  "SijiCard": {
+    "Rarity": "Uncommon"
+  },
+  "YukariAttack": {
+    "Rarity": "Uncommon"
+  },
+  "KokoroDance": {
+    "Rarity": "Uncommon"
+  },
+  "FutoLight": {
+    "Rarity": "Uncommon"
+  },
+  "HuiyeTime": {
+    "Rarity": "Rare"
+  },
+  "QingeUpgrade": {
+    "Rarity": "Rare"
+  },
+  "TannvCard": {
+    "Rarity": "Rare"
+  },
+  "SanaeMiracle": {
+    "Rarity": "Rare"
+  },
+  "ChengDefense": {
+    "Rarity": "Common"
+  },
+  "MogongAttack": {
+    "Rarity": "Common"
+  },
+  "TianziMana": {
+    "Rarity": "Uncommon"
+  },
+  "HappyNewYear": {
+    "Rarity": "Uncommon"
+  },
+  "HuashanDefense": {
+    "Rarity": "Uncommon"
+  },
+  "ZhenmiaowanAttack": {
+    "Rarity": "Rare"
+  },
+  "XingMoney": {
+    "Rarity": "Rare"
+  },
+  "SanaeSummonGod": {
+    "Rarity": "Rare"
+  },
+  "PoorAttack": {
+    "Rarity": "Common"
+  },
+  "AliceAttack": {
+    "Rarity": "Uncommon"
+  },
+  "BaitianCard": {
+    "Rarity": "Uncommon"
+  },
+  "YukariBox": {
+    "Rarity": "Uncommon"
+  },
+  "MeilingWater": {
+    "Rarity": "Uncommon"
+  },
+  "NueExile": {
+    "Rarity": "Rare"
+  },
+  "HuiyinRetain": {
+    "Rarity": "Rare"
+  },
+  "XiaosanReflect": {
+    "Rarity": "Common"
+  },
+  "YijiuAttack": {
+    "Rarity": "Uncommon"
+  },
+  "SuikaDraw": {
+    "Rarity": "Uncommon"
+  },
+  "ReisenMana": {
+    "Rarity": "Uncommon"
+  },
+  "FourFlan": {
+    "Rarity": "Rare"
+  },
+  "HekaHellRain": {
+    "Rarity": "Rare"
+  },
+  "ReisenAttack": {
+    "Rarity": "Rare"
+  },
+  "FlanPlayAlone": {
+    "Rarity": "Common"
+  },
+  "FangxiangHeal": {
+    "Rarity": "Common"
+  },
+  "HehuanAttack": {
+    "Rarity": "Common"
+  },
+  "QingeHeal": {
+    "Rarity": "Uncommon"
+  },
+  "RinDraw": {
+    "Rarity": "Uncommon"
+  },
+  "CloseEyeShoot": {
+    "Rarity": "Uncommon"
+  },
+  "KongMana": {
+    "Rarity": "Rare"
+  },
+  "Shengyan": {
+    "Rarity": "Rare"
+  },
+  "ModuoluoFire": {
+    "Rarity": "Rare"
+  },
+  "Zhulianshen": {
+    "Rarity": "Common"
+  },
+  "LilyChun": {
+    "Rarity": "Uncommon"
+  },
+  "XiangziEcho": {
+    "Rarity": "Uncommon"
+  },
+  "YoumuHybrid": {
+    "Rarity": "Uncommon"
+  },
+  "YonglinUpgrade": {
+    "Rarity": "Uncommon"
+  },
+  "SanaeRice": {
+    "Rarity": "Rare"
+  },
+  "SakuraBlade": {
+    "Rarity": "Rare"
+  },
+  "YouxiangWake": {
+    "Rarity": "Rare"
+  },
+  "LongArm": {
+    "Rarity": "Common"
+  },
+  "HatateShot": {
+    "Rarity": "Common"
+  },
+  "ZoufangWater": {
+    "Rarity": "Uncommon"
+  },
+  "MeilingRain": {
+    "Rarity": "Uncommon"
+  },
+  "RuowujiCard": {
+    "Rarity": "Uncommon"
+  },
+  "SkyWater": {
+    "Rarity": "Rare"
+  },
+  "LifeGame": {
+    "Rarity": "Rare"
+  },
+  "PoisonTeaParty": {
+    "Rarity": "Common"
+  },
+  "LigeluCard": {
+    "Rarity": "Common"
+  },
+  "PaluxiCurse": {
+    "Rarity": "Uncommon"
+  },
+  "BlackPoison": {
+    "Rarity": "Uncommon"
+  },
+  "KisumeAttack": {
+    "Rarity": "Uncommon"
+  },
+  "MedicineGarden": {
+    "Rarity": "Uncommon"
+  },
+  "ZoufangSnake": {
+    "Rarity": "Rare"
+  },
+  "YachieDefend": {
+    "Rarity": "Rare"
+  },
+  "JingyeGraze": {
+    "Rarity": "Common"
+  },
+  "FangxiangAttack": {
+    "Rarity": "Common"
+  },
+  "MeilingAbility": {
+    "Rarity": "Uncommon"
+  },
+  "LimaoAttack": {
+    "Rarity": "Uncommon"
+  },
+  "TodayYesterday": {
+    "Rarity": "Uncommon"
+  },
+  "AyaExtraTurn": {
+    "Rarity": "Rare"
+  },
+  "AyaWindGirl": {
+    "Rarity": "Rare"
+  },
+  "PatchouliLibrary": {
+    "Rarity": "Rare"
+  },
+  "SanaeRestart": {
+    "Rarity": "Rare"
+  },
+  "JinziSuperExtraTurn": {
+    "Rarity": "Rare"
+  },
+  "AnimalSpirit": {
+    "Rarity": "Rare"
+  },
+  "PrismriverAll": {
+    "Rarity": "Rare"
+  },
+  "ZhenmiaowanAbility": {
+    "Rarity": "Rare"
+  },
+  "JunkoNightmare": {
+    "Rarity": "Rare"
+  },
+  "ModuoluoSeasons": {
+    "Rarity": "Rare"
+  },
+  "YukariFriend": {
+    "Rarity": "Rare"
+  },
+  "BailianFire": {
+    "Rarity": "Rare"
+  },
+  "ToolDraw": {
+    "Rarity": "Common"
+  },
+  "ToolHeal": {
+    "Rarity": "Common"
+  },
+  "ToolWeak": {
+    "Rarity": "Common"
+  },
+  "ToolVulnerable": {
+    "Rarity": "Common"
+  },
+  "ToolAttack": {
+    "Rarity": "Common"
+  },
+  "ToolBlock": {
+    "Rarity": "Common"
+  },
+  "ToolAmulet": {
+    "Rarity": "Common"
+  },
+  "ToolMana": {
+    "Rarity": "Uncommon"
+  },
+  "ToolMicai": {
+    "Rarity": "Uncommon"
+  },
+  "ToolUpgrade": {
+    "Rarity": "Uncommon"
+  },
+  "ToolFirstAid": {
+    "Rarity": "Uncommon"
+  },
+  "ToolExile": {
+    "Rarity": "Uncommon"
+  },
+  "ToolInvincible": {
+    "Rarity": "Rare"
+  },
+  "ToolMaxHp": {
+    "Rarity": "Rare"
+  },
+  "ToolDroneBlock": {
+    "Rarity": "Rare"
+  },
+  "ToolRandomTool": {
+    "Rarity": "Rare"
+  },
+  "VampireShoot1": {
+    "Rarity": "Common"
+  },
+  "VampireShoot2": {
+    "Rarity": "Common"
+  },
+  "WanderingSoul": {
+    "Rarity": "Common"
+  },
+  "RabbitFoot": {
+    "Rarity": "Uncommon"
+  },
+  "GainTreasure": {
+    "Rarity": "Uncommon"
+  },
+  "MoonPurify": {
+    "Rarity": "Uncommon"
+  },
+  "ArtificialJewellery": {
+    "Rarity": "Rare"
+  },
+  "LilyoftheValley": {
+    "Rarity": "Common"
+  },
+  "NewsPositive": {
+    "Rarity": "Common"
+  },
+  "NewsNegative": {
+    "Rarity": "Common"
+  },
+  "NewsEntertainment": {
+    "Rarity": "Common"
+  },
+  "NewsTidbit": {
+    "Rarity": "Common"
+  },
+  "WolfFur": {
+    "Rarity": "Common"
+  },
+  "EmpCard": {
+    "Rarity": "Uncommon"
+  },
+  "LarvaCure": {
+    "Rarity": "Common"
+  },
+  "MoonTipsBag": {
+    "Rarity": "Uncommon"
+  },
+  "MoonTipsAttack": {
+    "Rarity": "Uncommon"
+  },
+  "MoonTipsDefense": {
+    "Rarity": "Uncommon"
+  },
+  "MoonTipsHeal": {
+    "Rarity": "Uncommon"
+  },
+  "QiannianShenqiCard": {
+    "Rarity": "Rare"
+  },
+  "MeilingLianhua": {
+    "Rarity": "Rare"
+  },
+  "AyaNews": {
+    "Rarity": "Common"
+  },
+  "HatateNews": {
+    "Rarity": "Common"
+  },
+  "AyaNewsReimuSp": {
+    "Rarity": "Rare"
+  },
+  "AyaNewsMarisaSp": {
+    "Rarity": "Rare"
+  },
+  "AyaNewsSakuyaSp": {
+    "Rarity": "Rare"
+  },
+  "AyaNewsCirnoSp": {
+    "Rarity": "Rare"
+  },
+  "Riguang": {
+    "Rarity": "Common"
+  },
+  "Yueguang": {
+    "Rarity": "Common"
+  },
+  "Xingguang": {
+    "Rarity": "Common"
+  },
+  "Xuanguang": {
+    "Rarity": "Common"
+  },
+  "CirnoFreeze": {
+    "Rarity": "Common"
+  },
+  "Frog": {
+    "Rarity": "Common"
+  },
+  "BlackResidue": {
+    "Rarity": "Uncommon"
+  },
+  "SakuyaLock": {
+    "Rarity": "Uncommon"
+  },
+  "Wushuai": {
+    "Rarity": "Uncommon"
+  },
+  "Payment": {
+    "Rarity": "Uncommon"
+  },
+  "LoveLetter": {
+    "Rarity": "Uncommon"
+  },
+  "Lunatic": {
+    "Rarity": "Uncommon"
+  },
+  "Chunguang": {
+    "Rarity": "Rare"
+  },
+  "Bribery": {
+    "Rarity": "Rare"
+  },
+  "Nightmare": {
+    "Rarity": "Rare"
+  },
+  "NightMana1": {
+    "Rarity": "Common"
+  },
+  "NightMana2": {
+    "Rarity": "Uncommon"
+  },
+  "NightMana3": {
+    "Rarity": "Rare"
+  },
+  "NightMana4": {
+    "Rarity": "Rare"
+  },
+  "Regret": {
+    "Rarity": "Common"
+  },
+  "Jealousy": {
+    "Rarity": "Common"
+  },
+  "BefuddledLife": {
+    "Rarity": "Common"
+  },
+  "XiaosanJingxia": {
+    "Rarity": "Common"
+  },
+  "MarisaForget": {
+    "Rarity": "Common"
+  },
+  "Yuebiao": {
+    "Rarity": "Common"
+  },
+  "BuyPeace": {
+    "Rarity": "Common"
+  },
+  "SweetPoison": {
+    "Rarity": "Common"
+  },
+  "Pressure": {
+    "Rarity": "Common"
+  },
+  "Misfortune": {
+    "Rarity": "Common"
+  },
+  "YuyukoMisfortune": {
+    "Rarity": "Common"
+  },
+  "Drunk": {
+    "Rarity": "Uncommon"
+  },
+  "Zhukeling": {
+    "Rarity": "Uncommon"
+  },
+  "Psychedelic": {
+    "Rarity": "Uncommon"
+  },
+  "FanzhuanChongdong": {
+    "Rarity": "Rare"
+  }
+}
