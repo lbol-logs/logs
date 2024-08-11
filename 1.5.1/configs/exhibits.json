@@ -16,139 +16,139 @@
   },
   "ReimuR": {
     "Rarity": "Shining",
-    "BaseManaColor": "R"
+    "BaseMana": "R"
   },
   "ReimuW": {
     "Rarity": "Shining",
-    "BaseManaColor": "W"
+    "BaseMana": "W"
   },
   "MarisaB": {
     "Rarity": "Shining",
-    "BaseManaColor": "B"
+    "BaseMana": "B"
   },
   "MarisaR": {
     "Rarity": "Shining",
-    "BaseManaColor": "R"
+    "BaseMana": "R"
   },
   "SakuyaW": {
     "Rarity": "Shining",
-    "BaseManaColor": "W"
+    "BaseMana": "W"
   },
   "SakuyaU": {
     "Rarity": "Shining",
-    "BaseManaColor": "U"
+    "BaseMana": "U"
   },
   "CirnoU": {
     "Rarity": "Shining",
-    "BaseManaColor": "U"
+    "BaseMana": "U"
   },
   "CirnoG": {
     "Rarity": "Shining",
-    "BaseManaColor": "G"
+    "BaseMana": "G"
   },
   "PiaoliangPanzi": {
     "Rarity": "Shining",
-    "BaseManaColor": "W"
+    "BaseMana": "W"
   },
   "DatiangouMaifan": {
     "Rarity": "Shining",
-    "BaseManaColor": "W"
+    "BaseMana": "W"
   },
   "ClassicWunvfu": {
     "Rarity": "Shining",
-    "BaseManaColor": "W"
+    "BaseMana": "W"
   },
   "Bingzhilin": {
     "Rarity": "Shining",
-    "BaseManaColor": "U"
+    "BaseMana": "U"
   },
   "ShijieSuipian": {
     "Rarity": "Shining",
-    "BaseManaColor": "U"
+    "BaseMana": "U"
   },
   "TianwenWangyuanjing": {
     "Rarity": "Shining",
-    "BaseManaColor": "U"
+    "BaseMana": "U"
   },
   "QinaKapian": {
     "Rarity": "Shining",
-    "BaseManaColor": "B"
+    "BaseMana": "B"
   },
   "PingzhuangLinghun": {
     "Rarity": "Shining",
-    "BaseManaColor": "B"
+    "BaseMana": "B"
   },
   "Laiwating": {
     "Rarity": "Shining",
-    "BaseManaColor": "B"
+    "BaseMana": "B"
   },
   "Ganggenier": {
     "Rarity": "Shining",
-    "BaseManaColor": "R"
+    "BaseMana": "R"
   },
   "GuizuJiubei": {
     "Rarity": "Shining",
-    "BaseManaColor": "R"
+    "BaseMana": "R"
   },
   "AizheHongshi": {
     "Rarity": "Shining",
-    "BaseManaColor": "R"
+    "BaseMana": "R"
   },
   "HouhuMen": {
     "Rarity": "Shining",
-    "BaseManaColor": "G"
+    "BaseMana": "G"
   },
   "HuashanBaiyaosheng": {
     "Rarity": "Shining",
-    "BaseManaColor": "G"
+    "BaseMana": "G"
   },
   "FengshouGuolan": {
     "Rarity": "Shining",
-    "BaseManaColor": "G"
+    "BaseMana": "G"
   },
   "Wanbaochui": {
     "Rarity": "Shining",
-    "BaseManaColor": "C"
+    "BaseMana": "C"
   },
   "Gongjuxiang": {
     "Rarity": "Shining",
-    "BaseManaColor": "C"
+    "BaseMana": "C"
   },
   "YueGujiu": {
     "Rarity": "Shining",
-    "BaseManaColor": "C"
+    "BaseMana": "C"
   },
   "Yuerang": {
     "Rarity": "Shining",
-    "BaseManaColor": "C"
+    "BaseMana": "C"
   },
   "XianzheShi": {
     "Rarity": "Shining",
-    "BaseManaColor": "P"
+    "BaseMana": "P"
   },
   "TaiguGouyu": {
     "Rarity": "Shining",
-    "BaseManaColor": "P"
+    "BaseMana": "P"
   },
   "KongbaiKapai": {
     "Rarity": "Shining",
-    "BaseManaColor": "P"
+    "BaseMana": "P"
   },
   "HuiyeBaoxiang": {
     "Rarity": "Shining",
-    "BaseManaColor": "A"
+    "BaseMana": "A"
   },
   "QipaiYouhua": {
     "Rarity": "Shining",
-    "BaseManaColor": "A"
+    "BaseMana": "A"
   },
   "YizangnuoWuzhi": {
     "Rarity": "Shining",
-    "BaseManaColor": "A"
+    "BaseMana": "A"
   },
   "QicaiLianhua": {
     "Rarity": "Shining",
-    "BaseManaColor": "A"
+    "BaseMana": "A"
   },
   "He3": {
     "Rarity": "Rare"
