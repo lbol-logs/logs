@@ -16,5 +16,14 @@
     "requests": ["LowMaxHp"],
     "result": "TrueEnd",
     "timestamp": "2024-07-30T15:56:31Z"
+  },
+  "demoTrue2": {
+    "character": "Reimu",
+    "type": "A",
+    "shining": "ReimuR",
+    "difficulty": "Lunatic",
+    "requests": ["HalfDrug","LowMaxHp","StartMisfortune","LowStageRegen","LowUpgradeRate","PayForUpgrade","NightMana"],
+    "result": "TrueEnd",
+    "timestamp": "2024-08-12T13:20:30Z"
   }
 }
