@@ -1635,48 +1635,63 @@
     "Rarity": "Rare"
   },
   "Regret": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "Jealousy": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "BefuddledLife": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "XiaosanJingxia": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "MarisaForget": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "Yuebiao": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "BuyPeace": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "SweetPoison": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "Pressure": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "Misfortune": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "YuyukoMisfortune": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "IsMisfortune": true
   },
   "Drunk": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "IsMisfortune": true
   },
   "Zhukeling": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "IsMisfortune": true
   },
   "Psychedelic": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "IsMisfortune": true
   },
   "FanzhuanChongdong": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "IsMisfortune": true
   }
 }
