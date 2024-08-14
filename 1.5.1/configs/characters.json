@@ -1,0 +1,46 @@
+{
+  "Reimu": {
+    "BaseMana": "WWRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "ReimuAttackR", "ReimuAttackR", "ReimuBlockW", "ReimuBlockW", "ReimuBlockW", "YaoguaiBuster"],
+      "Exhibit": "ReimuR"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "ReimuAttackW", "ReimuAttackW", "ReimuBlockR", "ReimuBlockR", "ReimuBlockR", "DoubleJiejie"],
+      "Exhibit": "ReimuW"
+    }
+  },
+  "Marisa": {
+    "BaseMana": "BBRR",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MarisaAttackB", "MarisaAttackB", "MarisaBlockR", "MarisaBlockR", "MarisaBlockR", "CraftPotion", "Astrology"],
+      "Exhibit": "MarisaB"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "MarisaAttackR", "MarisaAttackR", "MarisaBlockB", "MarisaBlockB", "MarisaBlockB", "RedLaser"],
+      "Exhibit": "MarisaR"
+    }
+  },
+  "Sakuya": {
+    "BaseMana": "WWUU",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SakuyaAttackW", "SakuyaAttackW", "SakuyaBlockU", "SakuyaBlockU", "SakuyaBlockU", "KnifeBounce"],
+      "Exhibit": "SakuyaW"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "SakuyaAttackU", "SakuyaAttackU", "SakuyaBlockW", "SakuyaBlockW", "Lijian", "PrivateVision"],
+      "Exhibit": "SakuyaU"
+    }
+  },
+  "Cirno": {
+    "BaseMana": "UUGG",
+    "A": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "CirnoAttackU", "CirnoAttackU", "CirnoBlockG", "CirnoBlockG", "CirnoBlockG", "IceLance", "FreezeBullet"],
+      "Exhibit": "CirnoU"
+    },
+    "B": {
+      "Cards": ["Shoot", "Shoot", "Boundary", "Boundary", "CirnoAttackG", "CirnoAttackG", "CirnoBlockU", "CirnoBlockU", "CirnoBlockU", "DayaojingFriend"],
+      "Exhibit": "CirnoG"
+    }
+  }
+}
