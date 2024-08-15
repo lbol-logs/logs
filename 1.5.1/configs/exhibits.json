@@ -16,35 +16,43 @@
   },
   "ReimuR": {
     "Rarity": "Shining",
-    "BaseMana": "R"
+    "BaseMana": "R",
+    "Owner": "Reimu"
   },
   "ReimuW": {
     "Rarity": "Shining",
-    "BaseMana": "W"
+    "BaseMana": "W",
+    "Owner": "Reimu"
   },
   "MarisaB": {
     "Rarity": "Shining",
-    "BaseMana": "B"
+    "BaseMana": "B",
+    "Owner": "Marisa"
   },
   "MarisaR": {
     "Rarity": "Shining",
-    "BaseMana": "R"
+    "BaseMana": "R",
+    "Owner": "Marisa"
   },
   "SakuyaW": {
     "Rarity": "Shining",
-    "BaseMana": "W"
+    "BaseMana": "W",
+    "Owner": "Sakuya"
   },
   "SakuyaU": {
     "Rarity": "Shining",
-    "BaseMana": "U"
+    "BaseMana": "U",
+    "Owner": "Sakuya"
   },
   "CirnoU": {
     "Rarity": "Shining",
-    "BaseMana": "U"
+    "BaseMana": "U",
+    "Owner": "Cirno"
   },
   "CirnoG": {
     "Rarity": "Shining",
-    "BaseMana": "G"
+    "BaseMana": "G",
+    "Owner": "Cirno"
   },
   "PiaoliangPanzi": {
     "Rarity": "Shining",
