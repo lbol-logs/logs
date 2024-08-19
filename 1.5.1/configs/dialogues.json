@@ -1,12 +1,11 @@
 {
-  "Id": {
+  "YukariProvide": {
+    "line": "line:04e7520",
     "0": {
-      "line": "line.abc",
-      "next": {
-        "0": {
-          "line": "line.def"
-        }
-      }
+      "line": "line:049c1f2"
+    },
+    "1": {
+      "line": "line:06cd2f3"
     }
   }
 }
