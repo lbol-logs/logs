@@ -1,0 +1,9 @@
+{
+  "DrinkTea": { "Rate": 30 },
+  "DrinkTea_JingzhiChaju": { "AdditionalHeal": 20 },
+  "DrinkTea_DiannaoPeijian": { "AdditionalPower": 50 },
+  "DrinkTea_HuangyouJiqiren": { "CardCount": 5 },
+  "UpgradeCard_PayForUpgrade": { "Price": 25 },
+  "GetMoney": { "Value": 150 },
+  "GetRareCard": { "Value": 2 }
+}
