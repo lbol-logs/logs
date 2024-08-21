@@ -6,7 +6,7 @@
     "HasClearBonus": true,
     "ShowRandomResult": true,
     "IsAutoSeed": true,
-    "Requests": [],
+    "Requests": ["PayForUpgrade"],
     "Difficulty": "Easy",
     "Status": {
       "Money": 10,
