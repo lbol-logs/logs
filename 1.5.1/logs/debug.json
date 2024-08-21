@@ -18,23 +18,268 @@
   },
   "Stations": [
     {
-      "Type": "Gap",
-      "Node": { "Act": 1, "Level": 0, "Y": 0 },
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 0,
+        "Y": 0
+      },
       "Status": {
-        "Money": 110,
+        "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 200,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 1,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
         "MaxPower": 200
       },
       "Data": {
         "Choice": "DrinkTea",
         "Options": [
           "DrinkTea",
-          "UpgradeCard"
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ]
+      },
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "ChengDefense",
+              "IsUpgraded": true
+            },
+            {
+              "Id": "MomentPower",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "DoubleDajiejie",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "JingshenYishi",
+              "IsUpgraded": true
+            },
+            {
+              "Id": "YinyangBaoyu",
+              "IsUpgraded": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 2,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "UpgradeBaota",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 3,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "FindExhibit",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 4,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "ShanliangDengpao": [
+          {
+            "Id": "ZhenmiaowanAttack",
+            "IsUpgraded": false
+          },
+          {
+            "Id": "KuosanJiejie",
+            "IsUpgraded": false
+          }
+        ],
+        "Choice": "GetRareCard",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 5,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "RemoveCard",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 6,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 160,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "GetMoney",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard",
+          "GetMoney"
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 7,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 160,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "DrinkTea",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
         ],
         "Choices": [
           0
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 8,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 160,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 50,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "DrinkTea",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ],
+        "Choices": [
+          2
         ]
       }
     }
@@ -43,18 +288,105 @@
     {
       "Act": 1,
       "Nodes": [
-        { "X": 0, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 0, "Y": 0, "Followers": [0], "Type": "Entry" },
         { "X": 1, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 2, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 3, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 4, "Y": 0, "Followers": [0], "Type": "Gap" },
-        { "X": 5, "Y": 0, "Followers": [0], "Type": "Gap" }
+        { "X": 5, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 6, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 7, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 8, "Y": 0, "Followers": [0], "Type": "Gap" }
       ]
     }
   ],
-  "Cards": [],
+  "Cards": [
+    {
+      "Type": "Add",
+      "Station": 1,
+      "Id": "DoubleDajiejie",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 4,
+      "Id": "KuosanJiejie",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 5,
+      "Id": "Boundary",
+      "IsUpgraded": false
+    }
+  ],
   "Exhibits": [
-    { "Id": "SadinYuebing", "Type": "Add", "Station": 0 }
+    {
+      "Id": "JingzhiChaju",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "DiannaoPeijian",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "HuangyouJiqiren",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "Baota",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "Xunlongchi",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "ShanliangDengpao",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "ShoushiYubi",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "Baota",
+      "Type": "Upgrade",
+      "Station": 2,
+      "Counter": 1
+    },
+    {
+      "Id": "Shanbibu",
+      "Type": "Add",
+      "Station": 3
+    },
+    {
+      "Id": "WaijieYanshuang",
+      "Type": "Remove",
+      "Station": 7
+    },
+    {
+      "Id": "JingjieGanzhiyi",
+      "Type": "Add",
+      "Station": 7
+    },
+    {
+      "Id": "WaijieYanshuang",
+      "Type": "Remove",
+      "Station": 8
+    },
+    {
+      "Id": "JingjieGanzhiyi",
+      "Type": "Add",
+      "Station": 8
+    }
   ],
   "Result": {
     "Type": "Failure",
