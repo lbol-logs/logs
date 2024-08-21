@@ -1,0 +1,64 @@
+{
+  "Version": "1.5.1",
+  "Settings": {
+    "Character": "Reimu",
+    "PlayerType": "B",
+    "HasClearBonus": true,
+    "ShowRandomResult": true,
+    "IsAutoSeed": true,
+    "Requests": [],
+    "Difficulty": "Easy",
+    "Status": {
+      "Money": 10,
+      "Hp": 80,
+      "MaxHp": 80,
+      "Power": 0,
+      "MaxPower": 200
+    }
+  },
+  "Stations": [
+    {
+      "Type": "Gap",
+      "Node": { "Act": 1, "Level": 0, "Y": 0 },
+      "Status": {
+        "Money": 110,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "DrinkTea",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard"
+        ],
+        "Choices": [
+          0
+        ]
+      }
+    }
+  ],
+  "Acts": [
+    {
+      "Act": 1,
+      "Nodes": [
+        { "X": 0, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 1, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 2, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 3, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 4, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 5, "Y": 0, "Followers": [0], "Type": "Gap" }
+      ]
+    }
+  ],
+  "Cards": [],
+  "Exhibits": [],
+  "Result": {
+    "Type": "Failure",
+    "Timestamp": "2020-01-01T13:00:00Z",
+    "Cards": [],
+    "Exhibits": [],
+    "BaseMana": "WWWRR"
+  }
+}
