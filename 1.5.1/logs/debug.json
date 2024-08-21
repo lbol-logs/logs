@@ -53,12 +53,14 @@
     }
   ],
   "Cards": [],
-  "Exhibits": [],
+  "Exhibits": [
+    { "Id": "SadinYuebing", "Type": "Add", "Station": 0 }
+  ],
   "Result": {
     "Type": "Failure",
     "Timestamp": "2020-01-01T13:00:00Z",
     "Cards": [],
-    "Exhibits": [],
+    "Exhibits": ["ReimuW"],
     "BaseMana": "WWWRR"
   }
 }
