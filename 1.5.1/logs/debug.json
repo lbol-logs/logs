@@ -12,7 +12,7 @@
       "Money": 10,
       "Hp": 80,
       "MaxHp": 80,
-      "Power": 0,
+      "Power": 200,
       "MaxPower": 200
     }
   },
@@ -28,8 +28,21 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Options": [
+          2,
+          4
+        ],
+        "Shinning": "QinaKapian",
+        "RareExhibit": "HuanxiangxiangYuanqi",
+        "Choices": [
+          3,
+          0,
+          4
+        ]
       }
     },
     {
@@ -43,7 +56,7 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -95,7 +108,7 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -121,7 +134,7 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -147,7 +160,7 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -183,7 +196,7 @@
         "Money": 10,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -209,7 +222,7 @@
         "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -236,7 +249,7 @@
         "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
@@ -265,7 +278,7 @@
         "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 50,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
