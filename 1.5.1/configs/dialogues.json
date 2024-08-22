@@ -10,8 +10,8 @@
       }
     }
   },
-  "Debut": {
-    "advantages": {
+  "Debut": [
+    {
       "current": "line:06f5f1b",
       "next": {
         "0": {
@@ -40,7 +40,7 @@
         }
       }
     },
-    "pills": {
+    {
       "current": "line:0e0ea19",
       "next": {
         "0": {
@@ -51,7 +51,7 @@
         }
       }
     },
-    "secretTreasures": {
+    {
       "current": "line:0e2540a",
       "next": {
         "0": {
@@ -71,5 +71,5 @@
         }
       }
     }
-  }
+  ]
 }
