@@ -335,6 +335,16 @@
   ],
   "Exhibits": [
     {
+      "Id": "HuanxiangxiangYuanqi",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "PenglaiYuzhi",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
       "Id": "JingzhiChaju",
       "Type": "Add",
       "Station": 0
