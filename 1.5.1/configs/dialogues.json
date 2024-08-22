@@ -7,5 +7,61 @@
     "1": {
       "line": "line:06cd2f3"
     }
+  },
+  "Debut": {
+    "advantages": {
+      "line": "line:06f5f1b",
+      "0": {
+        "line": "line:01d41f9"
+      },
+      "1": {
+        "line": "line:0f87a81"
+      },
+      "2": {
+        "line": "line:05100b8"
+      },
+      "3": {
+        "line": "line:097011d"
+      },
+      "4": {
+        "line": "line:02cfa2c"
+      },
+      "5": {
+        "line": ""
+      },
+      "6": {
+        "line": ""
+      },
+      "7": {
+        "line": "line:067ea40"
+      }
+    },
+    "pills": {
+      "line": "line:0e0ea19",
+      "0": {
+        "line": "line:045177b"
+      },
+      "1": {
+        "line": "line:0a8b17e"
+      }
+    },
+    "secretTreasures": {
+      "line": "line:0e2540a",
+      "0": {
+        "line": "line:0a20386"
+      },
+      "1": {
+        "line": "line:0d20cc9"
+      },
+      "2": {
+        "line": "line:0d59ab2"
+      },
+      "3": {
+        "line": "line:02f1bc3"
+      },
+      "4": {
+        "line": "line:04fa547"
+      }
+    }
   }
 }
