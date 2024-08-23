@@ -186,10 +186,30 @@
       }
     },
     {
-      "Type": "Gap",
+      "Type": "Select",
       "Node": {
         "Act": 1,
         "Level": 5,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          2
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 6,
         "Y": 0
       },
       "Status": {
@@ -215,7 +235,7 @@
       "Type": "Gap",
       "Node": {
         "Act": 1,
-        "Level": 6,
+        "Level": 7,
         "Y": 0
       },
       "Status": {
@@ -235,35 +255,6 @@
           "GetRareCard",
           "RemoveCard",
           "GetMoney"
-        ]
-      }
-    },
-    {
-      "Type": "Gap",
-      "Node": {
-        "Act": 1,
-        "Level": 7,
-        "Y": 0
-      },
-      "Status": {
-        "Money": 160,
-        "Hp": 80,
-        "MaxHp": 80,
-        "Power": 200,
-        "MaxPower": 200
-      },
-      "Data": {
-        "Choice": "DrinkTea",
-        "Options": [
-          "DrinkTea",
-          "UpgradeCard",
-          "UpgradeBaota",
-          "FindExhibit",
-          "GetRareCard",
-          "RemoveCard"
-        ],
-        "Choices": [
-          0
         ]
       }
     },
@@ -292,10 +283,59 @@
           "RemoveCard"
         ],
         "Choices": [
+          0
+        ]
+      }
+    },
+    {
+      "Type": "Gap",
+      "Node": {
+        "Act": 1,
+        "Level": 9,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 160,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choice": "DrinkTea",
+        "Options": [
+          "DrinkTea",
+          "UpgradeCard",
+          "UpgradeBaota",
+          "FindExhibit",
+          "GetRareCard",
+          "RemoveCard"
+        ],
+        "Choices": [
           2
         ]
       }
-    }
+    },
+    {
+      "Type": "Supply",
+      "Node": {
+        "Act": 1,
+        "Level": 10,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          2
+        ]
+      }
+    },
   ],
   "Acts": [
     {
@@ -306,11 +346,20 @@
         { "X": 2, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 3, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 4, "Y": 0, "Followers": [0], "Type": "Gap" },
-        { "X": 5, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 5, "Y": 0, "Followers": [0], "Type": "Select" },
         { "X": 6, "Y": 0, "Followers": [0], "Type": "Gap" },
         { "X": 7, "Y": 0, "Followers": [0], "Type": "Gap" },
-        { "X": 8, "Y": 0, "Followers": [0], "Type": "Gap" }
-      ]
+        { "X": 8, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 9, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 10, "Y": 0, "Followers": [0], "Type": "Supply" },
+        { "X": 11, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 12, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 13, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 14, "Y": 0, "Followers": [0], "Type": "Shop" },
+        { "X": 15, "Y": 0, "Followers": [0], "Type": "Shop" },
+        { "X": 16, "Y": 0, "Followers": [0], "Type": "Boss" }
+      ],
+      "Boss": "Marisa"
     }
   ],
   "Cards": [
@@ -328,7 +377,7 @@
     },
     {
       "Type": "Remove",
-      "Station": 5,
+      "Station": 6,
       "Id": "Boundary",
       "IsUpgraded": false
     }
@@ -408,22 +457,22 @@
     {
       "Id": "WaijieYanshuang",
       "Type": "Remove",
-      "Station": 7
+      "Station": 8
     },
     {
       "Id": "JingjieGanzhiyi",
       "Type": "Add",
-      "Station": 7
+      "Station": 8
     },
     {
       "Id": "WaijieYanshuang",
       "Type": "Remove",
-      "Station": 8
+      "Station": 9
     },
     {
       "Id": "JingjieGanzhiyi",
       "Type": "Add",
-      "Station": 8
+      "Station": 9
     }
   ],
   "Result": {
