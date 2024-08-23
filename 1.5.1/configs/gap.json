@@ -1,5 +1,5 @@
 {
-  "DrinkTea": { "Rate": 30 },
+  "DrinkTea": { "Rate": 0.3 },
   "DrinkTea_JingzhiChaju": { "AdditionalHeal": 20 },
   "DrinkTea_DiannaoPeijian": { "AdditionalPower": 50 },
   "DrinkTea_HuangyouJiqiren": { "CardCount": 5 },
