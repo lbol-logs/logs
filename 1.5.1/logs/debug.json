@@ -335,7 +335,7 @@
           2
         ]
       }
-    },
+    }
   ],
   "Acts": [
     {
@@ -355,9 +355,9 @@
         { "X": 11, "Y": 0, "Followers": [0], "Type": "Enemy" },
         { "X": 12, "Y": 0, "Followers": [0], "Type": "Enemy" },
         { "X": 13, "Y": 0, "Followers": [0], "Type": "Enemy" },
-        { "X": 14, "Y": 0, "Followers": [0], "Type": "Shop" },
+        { "X": 14, "Y": 0, "Followers": [0], "Type": "Enemy" },
         { "X": 15, "Y": 0, "Followers": [0], "Type": "Shop" },
-        { "X": 16, "Y": 0, "Followers": [0], "Type": "Boss" }
+        { "X": 16, "Y": 0, "Followers": [], "Type": "Boss" }
       ],
       "Boss": "Marisa"
     }
