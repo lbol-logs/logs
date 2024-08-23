@@ -3,5 +3,8 @@
     "money": 100,
     "red": 200,
     "blue": 20
+  },
+  "Select": {
+    "power": 30
   }
 }
