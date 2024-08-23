@@ -201,7 +201,12 @@
       },
       "Data": {
         "Choices": [
-          2
+          3
+        ],
+        "Opponents": [
+          "Cirno",
+          "Sakuya",
+          "Marisa"
         ]
       }
     },
