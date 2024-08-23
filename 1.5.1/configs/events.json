@@ -1,12 +1,8 @@
 {
   "Debut": {
-    "advantages": {
-      "money": 100
-    },
-    "pills": {
-      "red": 200,
-      "blue": 20,
-      "rate": 50
-    }
+    "money": 100,
+    "red": 200,
+    "blue": 20,
+    "rate": 50
   }
 }
