@@ -463,16 +463,6 @@
       "Id": "JingjieGanzhiyi",
       "Type": "Add",
       "Station": 8
-    },
-    {
-      "Id": "WaijieYanshuang",
-      "Type": "Remove",
-      "Station": 9
-    },
-    {
-      "Id": "JingjieGanzhiyi",
-      "Type": "Add",
-      "Station": 9
     }
   ],
   "Result": {
