@@ -88,5 +88,22 @@
         "current": "line:0f2a3b5"
       }
     }
+  },
+  "Supply": {
+    "current": "line:032ca60",
+    "next": {
+      "0": {
+        "current": "line:09e131e"
+      },
+      "1": {
+        "current": "line:01ad76b"
+      },
+      "2": {
+        "current": "line:0671234"
+      },
+      "3": {
+        "current": "line:0e1d069"
+      }
+    }
   }
 }

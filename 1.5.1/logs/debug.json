@@ -329,13 +329,18 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
       },
       "Data": {
+        "Exhibits": [
+          "WaijieYanjing",
+          "Jiaobu"
+        ],
+        "Both": "True",
         "Choices": [
           2
         ]
@@ -349,7 +354,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
@@ -364,7 +369,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
@@ -379,7 +384,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
@@ -394,7 +399,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
@@ -409,7 +414,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
@@ -424,7 +429,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 10,
+        "Money": 160,
         "Hp": 0,
         "MaxHp": 80,
         "Power": 200,
@@ -1307,6 +1312,11 @@
     },
     {
       "Id": "Yushenqian",
+      "Type": "Add",
+      "Station": 0
+    },
+    {
+      "Id": "GaodangShoubao",
       "Type": "Add",
       "Station": 0
     },
