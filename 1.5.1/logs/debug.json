@@ -1143,7 +1143,8 @@
           {
             "Round": 15,
             "Id": "Seija",
-            "Hp": 968
+            "Hp": 968,
+            "Se": "DragonBallSe"
           },
           {
             "Round": 16,
