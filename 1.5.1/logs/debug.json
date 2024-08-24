@@ -340,6 +340,867 @@
           2
         ]
       }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 11,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 12,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 13,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 14,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 1,
+        "Level": 15,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Boss",
+      "Node": {
+        "Act": 1,
+        "Level": 16,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 10,
+        "Hp": 0,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Details": [
+          {
+            "Round": 0,
+            "Id": "Seija",
+            "Se": "ShendengSe"
+          },
+          {
+            "Round": 1,
+            "Id": "Player",
+            "Hp": 80,
+            "Cards": [
+              {
+                "Id": "Shoot",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Shoot",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 1,
+            "Id": "Seija",
+            "Hp": 989
+          },
+          {
+            "Round": 2,
+            "Id": "Player",
+            "Hp": 38,
+            "Cards": [
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 2,
+            "Id": "Seija",
+            "Hp": 989
+          },
+          {
+            "Round": 3,
+            "Id": "Player",
+            "Hp": 38,
+            "Cards": [
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Shoot",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Shoot",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 3,
+            "Id": "Seija",
+            "Hp": 968,
+            "Se": "MadokaBowSe"
+          },
+          {
+            "Round": 4,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Shoot",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 4,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 5,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 5,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 6,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 6,
+            "Id": "Seija",
+            "Hp": 968,
+            "Se": "SihunYuSe"
+          },
+          {
+            "Round": 7,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 7,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 8,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 8,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 9,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 9,
+            "Id": "Seija",
+            "Hp": 968,
+            "Se": "QiannianShenqiSe"
+          },
+          {
+            "Round": 10,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "QiannianShenqiCard",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 10,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 11,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 11,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 12,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 12,
+            "Id": "Seija",
+            "Hp": 968,
+            "Se": "InfinityGemsSe"
+          },
+          {
+            "Round": 13,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Boundary",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuAttackR",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 13,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 14,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "ReimuBlockW",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 14,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 15,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "YaoguaiBuster",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Chunguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "AyaNews",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Xuanguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 15,
+            "Id": "Seija",
+            "Hp": 968
+          },
+          {
+            "Round": 16,
+            "Id": "Player",
+            "Hp": 32,
+            "Cards": [
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "IceBlock",
+                "IsUpgraded": true
+              },
+              {
+                "Id": "Riguang",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "AyaNews",
+                "IsUpgraded": false
+              },
+              {
+                "Id": "Yueguang",
+                "IsUpgraded": false
+              }
+            ]
+          },
+          {
+            "Round": 16,
+            "Id": "Seija",
+            "Hp": 968
+          }
+        ],
+        "Rounds": 16
+      },
+      "Id": "Seija"
     }
   ],
   "Acts": [
