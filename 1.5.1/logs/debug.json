@@ -347,7 +347,7 @@
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 1,
         "Level": 11,
@@ -359,10 +359,62 @@
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "17",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YukariFlyObject",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "YoumuAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 1,
         "Level": 12,
@@ -374,10 +426,62 @@
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "18",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YukariFlyObject",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "YoumuAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 1,
         "Level": 13,
@@ -389,10 +493,62 @@
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "19",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YukariFlyObject",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "YoumuAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 1,
         "Level": 14,
@@ -404,6 +560,58 @@
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "17",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YukariFlyObject",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "YoumuAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
@@ -1251,6 +1459,42 @@
       "Type": "Remove",
       "Station": 6,
       "Id": "Boundary",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 11,
+      "Id": "YukariFlyObject",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 12,
+      "Id": "YoumuAttack",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 13,
+      "Id": "TuimofuLuanwu",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 13,
+      "Id": "YukariFlyObject",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 14,
+      "Id": "YoumuAttack",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 14,
+      "Id": "LingfuHuti",
       "IsUpgraded": false
     }
   ],
