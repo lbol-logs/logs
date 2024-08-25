@@ -340,7 +340,7 @@
           "WaijieYanjing",
           "Jiaobu"
         ],
-        "Both": "True",
+        "Both": true,
         "Choices": [
           2
         ]
@@ -1340,6 +1340,16 @@
       "Id": "JingjieGanzhiyi",
       "Type": "Add",
       "Station": 8
+    },
+    {
+      "Id": "WaijieYanjing",
+      "Type": "Add",
+      "Station": 10
+    },
+    {
+      "Id": "Jiaobu",
+      "Type": "Add",
+      "Station": 10
     }
   ],
   "Result": {
