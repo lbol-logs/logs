@@ -615,18 +615,113 @@
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Shop",
       "Node": {
         "Act": 1,
         "Level": 15,
         "Y": 0
       },
       "Status": {
-        "Money": 160,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Prices": {
+          "Remove": 100,
+          "Upgrade": 50,
+          "JiangyouPing": 116,
+          "YinzhiHuaibiao": 118,
+          "Huiyuanka": 116,
+          "Moping": 147
+        },
+        "Choice": 1,
+        "Upgrade": {
+          "Id": "ReimuBlockW",
+          "IsUpgraded": false
+        }
+      },
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Price": 59,
+              "Id": "JiejieAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 40,
+              "Id": "YinyangBaoyu",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 38,
+              "Id": "JingshenYishi",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 20,
+              "IsDiscounted": true,
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 40,
+              "Id": "YinglangHowl",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 57,
+              "Id": "MojingShanjie",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 56,
+              "Id": "FreeFly",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 56,
+              "Id": "ReimuFestival",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 52,
+              "Id": "ToolMana",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 39,
+              "Id": "ToolHeal",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Price": 49,
+              "Id": "NazrinBaota",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 73,
+              "Id": "HuashanQingjing",
+              "IsUpgraded": false
+            },
+            {
+              "Price": 69,
+              "Id": "ToolExile",
+              "IsUpgraded": false
+            }
+          ]
+        ],
+        "Exhibits": [
+          "JiangyouPing",
+          "YinzhiHuaibiao",
+          "Huiyuanka",
+          "Moping"
+        ]
       }
     },
     {
@@ -1496,6 +1591,30 @@
       "Station": 14,
       "Id": "LingfuHuti",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 15,
+      "Id": "YinyangBaoyu",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 15,
+      "Id": "JingshenYishi",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 15,
+      "Id": "ToolMana",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Upgrade",
+      "Station": 15,
+      "Id": "ReimuBlockR",
+      "IsUpgraded": true
     }
   ],
   "Exhibits": [
@@ -1594,6 +1713,11 @@
       "Id": "Jiaobu",
       "Type": "Add",
       "Station": 10
+    },
+    {
+      "Id": "JiangyouPing",
+      "Type": "Add",
+      "Station": 15
     }
   ],
   "Result": {
