@@ -1510,6 +1510,105 @@
         "Rounds": 16
       },
       "Id": "Seija"
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 0,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 1,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 2,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 3,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 4,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Trade",
+      "Node": {
+        "Act": 2,
+        "Level": 5,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 1088,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 0,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Prices": {
+          "ShenmiPifeng": 88
+        },
+        "Choices": [
+          0,
+          0
+        ]
+      }
     }
   ],
   "Acts": [
@@ -1535,6 +1634,29 @@
         { "X": 16, "Y": 0, "Followers": [], "Type": "Boss" }
       ],
       "Boss": "Marisa"
+    },
+    {
+      "Act": 2,
+      "Nodes": [
+        { "X": 0, "Y": 0, "Followers": [0], "Type": "Entry" },
+        { "X": 1, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 2, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 3, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 4, "Y": 0, "Followers": [0], "Type": "Enemy" },
+        { "X": 5, "Y": 0, "Followers": [0], "Type": "Trade" },
+        { "X": 6, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 7, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 8, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 9, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 10, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 11, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 12, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 13, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 14, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 15, "Y": 0, "Followers": [0], "Type": "Gap" },
+        { "X": 16, "Y": 0, "Followers": [], "Type": "Gap" }
+      ],
+      "Boss": "Yuyuko"
     }
   ],
   "Cards": [
@@ -1718,6 +1840,21 @@
       "Id": "JiangyouPing",
       "Type": "Add",
       "Station": 15
+    },
+    {
+      "Id": "ShenmiPifeng",
+      "Type": "Remove",
+      "Station": 22
+    },
+    {
+      "Id": "WaijieYanjing",
+      "Type": "Remove",
+      "Station": 22
+    },
+    {
+      "Id": "WaijieYouxiji",
+      "Type": "Add",
+      "Station": 22
     }
   ],
   "Result": {

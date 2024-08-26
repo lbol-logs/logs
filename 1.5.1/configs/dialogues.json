@@ -105,5 +105,38 @@
         "current": "line:0e1d069"
       }
     }
-  }
+  },
+  "RinnosukeTrade": [
+    {
+      "current": "line:03aa37a",
+      "next": {
+        "0": {
+          "current": "line:01e38f2"
+        },
+        "0_invalid": {
+          "current": "line:0de0aae"
+        },
+        "1": {
+          "current": "line:06c2fe7"
+        },
+        "1_invalid": {
+          "current": "line:0cc8782"
+        },
+        "2": {
+          "current": "line:053c5be"
+        }
+      }
+    },
+    {
+      "current": "line:0bb144b",
+      "next": {
+        "0": {
+          "current": "line:00db216"
+        },
+        "1": {
+          "current": "line:0431aa2"
+        }
+      }
+    }
+  ]
 }
