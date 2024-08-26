@@ -2,140 +2,76 @@
   "YukariProvide": {
     "current": "line:04e7520",
     "next": {
-      "0": {
-        "current": "line:049c1f2"
-      },
-      "1": {
-        "current": "line:06cd2f3"
-      }
+      "0": "line:049c1f2",
+      "1": "line:06cd2f3"
     }
   },
   "Debut": [
     {
       "current": "line:06f5f1b",
       "next": {
-        "0": {
-          "current": "line:01d41f9"
-        },
-        "1": {
-          "current": "line:0f87a81"
-        },
-        "2": {
-          "current": "line:05100b8"
-        },
-        "3": {
-          "current": "line:097011d"
-        },
-        "4": {
-          "current": "line:02cfa2c"
-        },
-        "5": {
-          "current": "line:00b97f5"
-        },
-        "6": {
-          "current": "line:0b72af3"
-        },
-        "7": {
-          "current": "line:067ea40"
-        }
+        "0": "line:01d41f9",
+        "1": "line:0f87a81",
+        "2": "line:05100b8",
+        "3": "line:097011d",
+        "4": "line:02cfa2c",
+        "5": "line:00b97f5",
+        "6": "line:0b72af3",
+        "7": "line:067ea40"
       }
     },
     {
       "current": "line:0e0ea19",
       "next": {
-        "0": {
-          "current": "line:045177b"
-        },
-        "1": {
-          "current": "line:0a8b17e"
-        }
+        "0": "line:045177b",
+        "1": "line:0a8b17e"
       }
     },
     {
       "current": "line:0e2540a",
       "next": {
-        "0": {
-          "current": "line:0a20386"
-        },
-        "1": {
-          "current": "line:0d20cc9"
-        },
-        "2": {
-          "current": "line:0d59ab2"
-        },
-        "3": {
-          "current": "line:02f1bc3"
-        },
-        "4": {
-          "current": "line:04fa547"
-        }
+        "0": "line:0a20386",
+        "1": "line:0d20cc9",
+        "2": "line:0d59ab2",
+        "3": "line:02f1bc3",
+        "4": "line:04fa547"
       }
     }
   ],
   "Select": {
     "current": "line:005887b",
     "next": {
-      "0": {
-        "current": "line:07e66de"
-      },
-      "1": {
-        "current": "line:01fb81d"
-      },
-      "2": {
-        "current": "line:02a4885"
-      },
-      "3": {
-        "current": "line:0f2a3b5"
-      }
+      "0": "line:07e66de",
+      "1": "line:01fb81d",
+      "2": "line:02a4885",
+      "3": "line:0f2a3b5"
     }
   },
   "Supply": {
     "current": "line:032ca60",
     "next": {
-      "0": {
-        "current": "line:0ddbdec"
-      },
-      "1": {
-        "current": "line:0a82591"
-      },
-      "2": {
-        "current": "line:0671234"
-      },
-      "3": {
-        "current": "line:0e1d069"
-      }
+      "0": "line:0ddbdec",
+      "1": "line:0a82591",
+      "2": "line:0671234",
+      "3": "line:0e1d069"
     }
   },
   "RinnosukeTrade": [
     {
       "current": "line:03aa37a",
       "next": {
-        "0": {
-          "current": "line:01e38f2"
-        },
-        "0_invalid": {
-          "current": "line:0de0aae"
-        },
-        "1": {
-          "current": "line:06c2fe7"
-        },
-        "1_invalid": {
-          "current": "line:0cc8782"
-        },
-        "2": {
-          "current": "line:053c5be"
-        }
+        "0": "line:01e38f2",
+        "0_invalid": "line:0de0aae",
+        "1": "line:06c2fe7",
+        "1_invalid": "line:0cc8782",
+        "2": "line:053c5be"
       }
     },
     {
       "current": "line:0bb144b",
       "next": {
-        "0": {
-          "current": "line:00db216"
-        },
-        "1": {
-          "current": "line:0431aa2"
-        }
+        "0": "line:00db216",
+        "1": "line:0431aa2"
       }
     }
   ]
