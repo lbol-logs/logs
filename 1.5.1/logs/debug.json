@@ -732,7 +732,7 @@
         "Y": 0
       },
       "Status": {
-        "Money": 160,
+        "Money": 8719,
         "Hp": 0,
         "MaxHp": 80,
         "Power": 200,
@@ -1519,10 +1519,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       }
     },
@@ -1534,10 +1534,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       }
     },
@@ -1549,10 +1549,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       }
     },
@@ -1564,10 +1564,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       }
     },
@@ -1579,10 +1579,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8719,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       }
     },
@@ -1594,10 +1594,10 @@
         "Y": 0
       },
       "Status": {
-        "Money": 1088,
+        "Money": 8807,
         "Hp": 80,
         "MaxHp": 80,
-        "Power": 0,
+        "Power": 200,
         "MaxPower": 200
       },
       "Data": {
