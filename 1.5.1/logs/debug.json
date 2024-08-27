@@ -1697,6 +1697,144 @@
           0
         ]
       }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 6,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 7,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 8,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 9,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Rewards": {
+        "Exhibits": [
+          "Modaoshu",
+          "SongjingMuyu",
+          "WeifengHuban"
+        ]
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 10,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "SanaeSummonGod",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YongyiAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YuetuInvincible",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 2,
+        "Level": 11,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8807,
+        "Hp": 80,
+        "MaxHp": 80,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Rewards": {
+        "Exhibits": [
+          "Modaoshu",
+          "Shanbibu",
+          "TiangouYuyi"
+        ],
+        "Cards": [
+          [
+            {
+              "Id": "MeihongPower",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "FlanFirepower",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ZhenmiaowanAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
     }
   ],
   "Acts": [
@@ -1882,6 +2020,72 @@
       "Id": "YuyukoSing",
       "IsUpgraded": true,
       "UpgradeCounter": 2
+    },
+    {
+      "Type": "Remove",
+      "Station": 23,
+      "Id": "Shoot",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 23,
+      "Id": "Boundary",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 23,
+      "Id": "KuosanJiejie",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 23,
+      "Id": "SuikaBigball",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 24,
+      "Id": "ReimuAttackW",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 24,
+      "Id": "ReimuAttackW",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 25,
+      "Id": "Yuebiao",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 26,
+      "Id": "Zhukeling",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 27,
+      "Id": "SanaeSummonGod",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 28,
+      "Id": "FlanFirepower",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 28,
+      "Id": "Zhukeling",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -2000,6 +2204,51 @@
       "Id": "WaijieYouxiji",
       "Type": "Add",
       "Station": 22
+    },
+    {
+      "Id": "ShijieSuipian",
+      "Type": "Add",
+      "Station": 23
+    },
+    {
+      "Id": "HouhuMen",
+      "Type": "Add",
+      "Station": 24
+    },
+    {
+      "Id": "Yuerang",
+      "Type": "Add",
+      "Station": 25
+    },
+    {
+      "Id": "HuiyeBaoxiang",
+      "Type": "Add",
+      "Station": 26
+    },
+    {
+      "Id": "WeifengHuban",
+      "Type": "Add",
+      "Station": 26
+    },
+    {
+      "Id": "Modaoshu",
+      "Type": "Add",
+      "Station": 27
+    },
+    {
+      "Id": "HuiyeBaoxiang",
+      "Type": "Add",
+      "Station": 28
+    },
+    {
+      "Id": "Modaoshu",
+      "Type": "Add",
+      "Station": 28
+    },
+    {
+      "Id": "TiangouYuyi",
+      "Type": "Add",
+      "Station": 28
     }
   ],
   "Result": {
