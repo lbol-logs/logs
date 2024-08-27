@@ -1527,7 +1527,7 @@
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 2,
         "Level": 1,
@@ -1539,10 +1539,32 @@
         "MaxHp": 80,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "21",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 2,
         "Level": 2,
@@ -1550,14 +1572,36 @@
       },
       "Status": {
         "Money": 8719,
-        "Hp": 80,
-        "MaxHp": 80,
+        "Hp": 85,
+        "MaxHp": 85,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "22",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 2,
         "Level": 3,
@@ -1565,25 +1609,69 @@
       },
       "Status": {
         "Money": 8719,
-        "Hp": 80,
-        "MaxHp": 80,
+        "Hp": 85,
+        "MaxHp": 85,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "23",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
-      "Type": "Entry",
+      "Type": "Enemy",
       "Node": {
         "Act": 2,
-        "Level": 4,
+        "Level": 3,
         "Y": 0
       },
       "Status": {
         "Money": 8719,
-        "Hp": 80,
-        "MaxHp": 80,
+        "Hp": 85,
+        "MaxHp": 85,
         "Power": 200,
         "MaxPower": 200
+      },
+      "Data": {
+        "Rounds": 1
+      },
+      "Id": "24",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "LingfuHuti",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "TuimofuLuanwu",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MogongAttack",
+              "IsUpgraded": false
+            }
+          ]
+        ]
       }
     },
     {
@@ -1737,6 +1825,63 @@
       "Station": 15,
       "Id": "ReimuBlockR",
       "IsUpgraded": true
+    },
+    {
+      "Type": "Add",
+      "Station": 17,
+      "Id": "HuiyinRemove",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 17,
+      "Id": "YuyukoSing",
+      "IsUpgraded": false,
+      "UpgradeCounter": 0
+    },
+    {
+      "Type": "Add",
+      "Station": 17,
+      "Id": "QingeUpgrade",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 17,
+      "Id": "ToolMaxHp",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 18,
+      "Id": "Shoot",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 18,
+      "Id": "HuiyinRemove",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 19,
+      "Id": "ToolMaxHp",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Upgrade",
+      "Station": 20,
+      "Id": "YuyukoSing",
+      "IsUpgraded": true,
+      "UpgradeCounter": 1
+    },
+    {
+      "Type": "Upgrade",
+      "Station": 21,
+      "Id": "YuyukoSing",
+      "IsUpgraded": true,
+      "UpgradeCounter": 2
     }
   ],
   "Exhibits": [
