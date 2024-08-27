@@ -1641,7 +1641,7 @@
       "Type": "Enemy",
       "Node": {
         "Act": 2,
-        "Level": 4,
+        "Level": 3,
         "Y": 0
       },
       "Status": {
