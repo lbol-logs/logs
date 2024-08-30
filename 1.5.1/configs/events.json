@@ -6,5 +6,10 @@
   },
   "Select": {
     "power": 30
+  },
+  "DoremyPortal": {
+    "money": 100,
+    "exhibit": "JingjieGanzhiyi",
+    "misfortune": "Psychedelic"
   }
 }
