@@ -162,7 +162,8 @@
     "Rarity": "Rare"
   },
   "Baota": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Counter": 0
   },
   "XijianSan": {
     "Rarity": "Rare"
@@ -177,7 +178,8 @@
     "Rarity": "Rare"
   },
   "GanzhuYao": {
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "Counter": 0
   },
   "Xunlongchi": {
     "Rarity": "Rare"
@@ -357,7 +359,8 @@
     "Rarity": "Common"
   },
   "TiangouYuyi": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Counter": 3
   },
   "TiangouDunpai": {
     "Rarity": "Common"
@@ -366,7 +369,8 @@
     "Rarity": "Common"
   },
   "ChuRenou": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Counter": 3
   },
   "Chaidao": {
     "Rarity": "Common"
@@ -450,7 +454,8 @@
     "Rarity": "Common"
   },
   "Moping": {
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Counter": 3
   },
   "JingboliJing": {
     "Rarity": "Common"
