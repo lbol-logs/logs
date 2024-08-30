@@ -11,5 +11,11 @@
     "money": 100,
     "exhibit": "JingjieGanzhiyi",
     "misfortune": "Psychedelic"
+  },
+  "JunkoColorless": {
+    "mana": "CC"
+  },
+  "PatchouliPhilosophy": {
+    "mana": "P"
   }
 }
