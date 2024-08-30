@@ -82,5 +82,21 @@
       "1": "line:0f1da28",
       "2": "line:0298994"
    }
+  },
+  "JunkoColorless": {
+    "current": "line:0632b2f",
+    "next": {
+      "0": "line:0a3fe27",
+      "0_0": "line:0833aaf",
+      "1": "line:04e31e3"
+    }
+  },
+  "PatchouliPhilosophy": {
+    "current": "line:0b23fed",
+    "next": {
+      "0": "line:01cdad3",
+      "0_0": "line:07acb35",
+      "1": "line:04eeb1a"
+    }
   }
 }

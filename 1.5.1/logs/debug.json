@@ -2085,6 +2085,52 @@
         ]
       },
       "Id":"DoremyPortal"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 2,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "BaseMana": "WWWURRGCCPAAA",
+        "Choices": [
+          0
+        ],
+        "Color": "W"
+      },
+      "Id":"JunkoColorless"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 3,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "BaseMana": "WWWURRGCCPAAA",
+        "Choices": [
+          0
+        ],
+        "Color": "R"
+      },
+      "Id":"PatchouliPhilosophy"
     }
   ],
   "Acts": [
