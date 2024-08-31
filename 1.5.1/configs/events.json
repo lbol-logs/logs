@@ -22,5 +22,8 @@
     "exhibit": "JingQiXi",
     "money": 800,
     "misfortunes": ["Drunk", "Drunk"]
+  },
+  "SumirekoGathering": {
+    "money": 125
   }
 }

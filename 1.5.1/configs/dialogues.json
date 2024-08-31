@@ -115,5 +115,24 @@
         "1": "line:0d8166c"
       }
     }
+  ],
+  "SumirekoGathering": [
+    {
+      "current": "line:0977eb5",
+      "next": {
+        "0": "line:022ef50",
+        "0_invalid": "line:0d7f696",
+        "1": "line:07a7bdc",
+        "1_invalid": "line:00120ec",
+        "2": "line:046c8a9"
+      }
+    },
+    {
+      "current": "line:04c2389",
+      "next": {
+        "0": "line:0ed2833",
+        "1": "line:06cd2f3"
+      }
+    }
   ]
 }

@@ -2161,6 +2161,55 @@
         "Id": "39"
       },
       "Id": "MiyoiBartender"
+    },
+    {
+      "Type": "Trade",
+      "Node": {
+        "Act": 3,
+        "Level": 5,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Card": {
+          "Id": "HuanxiangTouying",
+          "IsUpgraded": false
+        },
+        "Cards": [
+          "KuosanJiejie",
+          "MeihongPower",
+          "BoliPhantom"
+        ],
+        "HasMoney": true,
+        "Choices": [
+          0,
+          0
+        ]
+      },
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "KuosanJiejie",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MeihongPower",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "BoliPhantom",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
     }
   ],
   "Acts": [
@@ -2491,6 +2540,18 @@
       "Station": 35,
       "Id": "ToolFirstAid",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 43,
+      "Id": "HuanxiangTouying",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 43,
+      "Id": "KuosanJiejie",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -2689,6 +2750,16 @@
       "Id": "Gongjuxiang",
       "Type": "Add",
       "Station": 35
+    },
+    {
+      "Id": "WaijieYouxiji",
+      "Type": "Remove",
+      "Station": 43
+    },
+    {
+      "Id": "WaijieYanshuang",
+      "Type": "Add",
+      "Station": 43
     }
   ],
   "Result": {
