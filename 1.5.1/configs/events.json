@@ -17,5 +17,10 @@
   },
   "PatchouliPhilosophy": {
     "mana": "P"
+  },
+  "MiyoiBartender": {
+    "exhibit": "JingQiXi",
+    "money": 800,
+    "misfortunes": ["Drunk", "Drunk"]
   }
 }

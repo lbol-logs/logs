@@ -98,5 +98,22 @@
       "0_0": "line:07acb35",
       "1": "line:04eeb1a"
     }
-  }
+  },
+  "MiyoiBartender": [
+    {
+      "current": "line:0868bad",
+      "next": {
+        "0": "line:061da42",
+        "1": "line:018cd9a",
+        "2": "line:0bea743"
+      }
+    },
+    {
+      "current": "line:0b0300d",
+      "next": {
+        "0": "line:0b3a02b",
+        "1": "line:0d8166c"
+      }
+    }
+  ]
 }

@@ -2131,6 +2131,36 @@
         "Color": "R"
       },
       "Id":"PatchouliPhilosophy"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 4,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Ids": [
+          "37",
+          "38",
+          "39"
+        ],
+        "Exhibit": "Zuoshan",
+        "Choices": [
+          2,
+          1
+        ],
+        "Rounds": 1,
+        "Id": "39"
+      },
+      "Id": "MiyoiBartender"
     }
   ],
   "Acts": [
