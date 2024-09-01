@@ -2281,6 +2281,32 @@
         ]
       },
       "Id": "YorigamiSisters"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 9,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9182,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          175,
+          39
+        ],
+        "Choices": [
+          0,
+          1
+        ]
+      },
+      "Id": "HatateInterview"
     }
   ],
   "Acts": [
@@ -2628,6 +2654,12 @@
       "Type": "Remove",
       "Station": 44,
       "Id": "SuikaBigball",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 47,
+      "Id": "NewsNegative",
       "IsUpgraded": false
     }
   ],

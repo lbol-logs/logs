@@ -167,5 +167,23 @@
         "1": "line:08ee578"
       }
     }
+  ],
+  "HatateInterview": [
+    {
+      "current": "line:0fed9a3",
+      "next": {
+        "0": "line:0ffc3c5",
+        "1": "line:0b1bfc1"
+      }
+    },
+    {
+      "current": "line:0f1ab7b",
+      "next": {
+        "0": "line:0c26759",
+        "1": "line:01f1aca",
+        "2": "line:018ba4d",
+        "3": "line:0680a62"
+      }
+    }
   ]
 }

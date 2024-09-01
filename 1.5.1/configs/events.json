@@ -40,5 +40,9 @@
     "card": "ArtificialJewellery",
     "money": 100,
     "misfortune": "BuyPeace"
+  },
+  "HatateInterview": {
+    "cards": ["NewsPositive", "NewsNegative", "NewsEntertainment", "NewsTidbit"],
+    "misfortune": "BefuddledLife"
   }
 }
