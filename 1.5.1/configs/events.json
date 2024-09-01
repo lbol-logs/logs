@@ -44,5 +44,8 @@
   "HatateInterview": {
     "cards": ["NewsPositive", "NewsNegative", "NewsEntertainment", "NewsTidbit"],
     "misfortune": "BefuddledLife"
+  },
+  "KogasaSpook": {
+    "misfortune": "XiaosanJingxia"
   }
 }

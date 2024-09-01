@@ -2329,6 +2329,28 @@
         ]
       },
       "Id": "HinaCollect"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 11,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9182,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          1,
+          0
+        ]
+      },
+      "Id": "KogasaSpook"
     }
   ],
   "Acts": [

@@ -193,5 +193,12 @@
       "1": "line:00dc670",
       "2": "line:0a76aa4"
     }
+  },
+  "KogasaSpook": {
+    "current": "line:02f382c",
+    "next": {
+      "0": "line:03bbd9d",
+      "1": "line:04a4454"
+    }
   }
 }
