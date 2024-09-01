@@ -2307,6 +2307,28 @@
         ]
       },
       "Id": "HatateInterview"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 10,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9182,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Card": "Regret",
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "HinaCollect"
     }
   ],
   "Acts": [

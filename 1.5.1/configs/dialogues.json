@@ -185,5 +185,13 @@
         "3": "line:0680a62"
       }
     }
-  ]
+  ],
+  "HinaCollect": {
+    "current": "line:0183740",
+    "next": {
+      "0": "line:02dcea4",
+      "1": "line:00dc670",
+      "2": "line:0a76aa4"
+    }
+  }
 }
