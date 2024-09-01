@@ -200,5 +200,27 @@
       "0": "line:03bbd9d",
       "1": "line:04a4454"
     }
-  }
+  },
+  "KosuzuBookstore": [
+    {
+      "current": "line:0150d96",
+      "next": {
+        "0": "line:0b70964",
+        "1": "line:04432b2",
+        "2": "line:09f57d5",
+        "3": "line:0dccd45"
+      }
+    },
+    {
+      "current": "line:09d3e76",
+      "next": {
+        "0": "line:096ea9d",
+        "1": "line:0d2b81d",
+        "1_invalid": "line:07162cf",
+        "2": "line:02e54df",
+        "3": "line:02c51dc",
+        "4": "line:07f1497"
+      }
+    }
+  ]
 }

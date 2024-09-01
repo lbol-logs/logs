@@ -2351,6 +2351,35 @@
         ]
       },
       "Id": "KogasaSpook"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 12,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9062,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Exhibits": [
+          "FirstAidBook",
+          "PulpFiction"
+        ],
+        "Returns": [
+          "HuanxiangxiangYuanqi"
+        ],
+        "Choices": [
+          0,
+          0
+        ]
+      },
+      "Id": "KosuzuBookstore"
     }
   ],
   "Acts": [
@@ -2913,6 +2942,11 @@
       "Id": "WaijieYanshuang",
       "Type": "Add",
       "Station": 43
+    },
+    {
+      "Id": "FirstAidBook",
+      "Type": "Add",
+      "Station": 50
     }
   ],
   "Result": {
