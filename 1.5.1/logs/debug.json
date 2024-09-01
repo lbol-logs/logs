@@ -2210,6 +2210,30 @@
           ]
         ]
       }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 6,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "HasUpgradableBasics": true,
+        "HasNonBasics": true,
+        "LoseMax": 17,
+        "Choices": [
+          1
+        ]
+      },
+      "Id": "ShinmyoumaruForge"
     }
   ],
   "Acts": [
@@ -2551,6 +2575,12 @@
       "Type": "Add",
       "Station": 43,
       "Id": "KuosanJiejie",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 44,
+      "Id": "SuikaBigball",
       "IsUpgraded": false
     }
   ],

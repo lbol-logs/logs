@@ -25,5 +25,9 @@
   },
   "SumirekoGathering": {
     "money": 125
+  },
+  "ShinmyoumaruForge": {
+    "upgrade": 5,
+    "transform": 3
   }
 }

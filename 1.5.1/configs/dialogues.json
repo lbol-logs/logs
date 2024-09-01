@@ -134,5 +134,14 @@
         "1": "line:06cd2f3"
       }
     }
-  ]
+  ],
+  "ShinmyoumaruForge": {
+    "current": "line:04566b1",
+    "next": {
+      "0": "line:04e318b",
+      "1": "line:009a2f1",
+      "2": "line:0bb82a2",
+      "3": "line:08c142c"
+    }
+  }
 }
