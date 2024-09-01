@@ -2256,6 +2256,31 @@
         ]
       },
       "Id": "WatatsukiPurify"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 8,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9007,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          5
+        ],
+        "Choices": [
+          1,
+          0
+        ]
+      },
+      "Id": "YorigamiSisters"
     }
   ],
   "Acts": [
