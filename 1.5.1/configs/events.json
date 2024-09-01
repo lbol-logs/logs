@@ -34,5 +34,11 @@
     "maxhp": 16,
     "cards": ["MoonPurify", "MoonPurify"],
     "misfortune": "Yuebiao"
+  },
+  "YorigamiSisters": {
+    "discount": 50,
+    "card": "ArtificialJewellery",
+    "money": 100,
+    "misfortune": "BuyPeace"
   }
 }

@@ -151,5 +151,21 @@
       "1": "line:015cd2b",
       "2": "line:0c671d8"
     }
-  }
+  },
+  "YorigamiSisters": [
+    {
+      "current": "line:0e93370",
+      "next": {
+        "0": "line:035fe0b",
+        "1": "line:03a90b9"
+      }
+    },
+    {
+      "current": "line:09653e9",
+      "next": {
+        "0": "line:027fc29",
+        "1": "line:08ee578"
+      }
+    }
+  ]
 }
