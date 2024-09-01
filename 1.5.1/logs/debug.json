@@ -2234,6 +2234,28 @@
         ]
       },
       "Id": "ShinmyoumaruForge"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 7,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9107,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "LoseMax": 8,
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "WatatsukiPurify"
     }
   ],
   "Acts": [

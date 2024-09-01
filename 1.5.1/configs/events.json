@@ -29,5 +29,10 @@
   "ShinmyoumaruForge": {
     "upgrade": 5,
     "transform": 3
+  },
+  "WatatsukiPurify": {
+    "maxhp": 16,
+    "cards": ["MoonPurify", "MoonPurify"],
+    "misfortune": "Yuebiao"
   }
 }
