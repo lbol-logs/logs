@@ -2424,6 +2424,29 @@
           ]
         ]
       }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 14,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 90,
+        "MaxHp": 90,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          0,
+          0
+        ],
+        "Type": "Common"
+      },
+      "Id": "NarumiOfferCard"
     }
   ],
   "Acts": [
@@ -2783,6 +2806,12 @@
       "Type": "Add",
       "Station": 51,
       "Id": "ToolBlock",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 52,
+      "Id": "YukariFlyObject",
       "IsUpgraded": false
     }
   ],

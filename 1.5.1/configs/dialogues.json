@@ -222,5 +222,39 @@
         "4": "line:07f1497"
       }
     }
+  ],
+  "NarumiOfferCard": [
+    {
+      "current": "line:0a28cc1",
+      "next": {
+        "0": "line:08162bb"
+      }
+    },
+    {
+      "misfortune": {
+        "current": "line:0e989ef",
+        "next": {
+          "0": "line:0ff3d42"
+        }
+      },
+      "common": {
+        "current": "line:0502c7d",
+        "next": {
+          "0": "line:079a650"
+        }
+      },
+      "uncommon": {
+        "current": "line:0d02cdc",
+        "next": {
+          "0": "line:0f9e764"
+        }
+      },
+      "rare": {
+        "current": "line:07aab8f",
+        "next": {
+          "0": "line:0cc67e1"
+        }
+      }
+    }
   ]
 }

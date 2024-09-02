@@ -50,5 +50,12 @@
   },
   "KosuzuBookstore": {
     "money": 120
+  },
+  "NarumiOfferCard": {
+    "misfortune": 1,
+    "common": 1,
+    "uncommon": 5,
+    "rare": 10,
+    "percent": 30
   }
 }
