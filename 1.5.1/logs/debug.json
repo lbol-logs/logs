@@ -2447,6 +2447,33 @@
         "Type": "Common"
       },
       "Id": "NarumiOfferCard"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 15,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9042,
+        "Hp": 90,
+        "MaxHp": 90,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          0,
+          150,
+          5
+        ],
+        "Choices": [
+          0
+        ],
+        "Result": 0
+      },
+      "Id": "NazrinDetect"
     }
   ],
   "Acts": [

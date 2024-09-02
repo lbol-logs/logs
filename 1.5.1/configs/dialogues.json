@@ -256,5 +256,22 @@
         }
       }
     }
+  ],
+  "NazrinDetect": [
+    {
+      "current": "line:062ca0e",
+      "next": {
+        "0": "line:0b435bf",
+        "1": "line:03c7b6c"
+      }
+    },
+    {
+      "0": "line:0aa76a7",
+      "1": "line:0bf5da1",
+      "2": "line:04d438a",
+      "3": "line:0bc8048",
+      "4": "line:0e8e6c2",
+      "5": "line:0766cf1"
+    }
   ]
 }

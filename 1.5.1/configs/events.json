@@ -57,5 +57,9 @@
     "uncommon": 5,
     "rare": 10,
     "percent": 30
+  },
+  "NazrinDetect": {
+    "money": 50,
+    "coins": 150
   }
 }
