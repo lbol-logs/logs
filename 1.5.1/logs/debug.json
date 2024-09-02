@@ -2380,6 +2380,50 @@
         ]
       },
       "Id": "KosuzuBookstore"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 13,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 85,
+        "MaxHp": 85,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Exhibits": [
+          "PulpFiction",
+          "FixBook"
+        ],
+        "Choices": [
+          1,
+          0
+        ]
+      },
+      "Id": "KosuzuBookstore",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "ToolMana",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ToolAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ToolBlock",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
     }
   ],
   "Acts": [
@@ -2734,6 +2778,12 @@
       "Station": 47,
       "Id": "NewsNegative",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 51,
+      "Id": "ToolBlock",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -2947,6 +2997,11 @@
       "Id": "FirstAidBook",
       "Type": "Add",
       "Station": 50
+    },
+    {
+      "Id": "FixBook",
+      "Type": "Add",
+      "Station": 51
     }
   ],
   "Result": {
