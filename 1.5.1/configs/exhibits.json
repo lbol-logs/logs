@@ -497,7 +497,8 @@
     "Rarity": "Uncommon"
   },
   "IdolTshirt": {
-    "Rarity": "Uncommon"
+    "Rarity": "Uncommon",
+    "Counter": 2
   },
   "Qingshu": {
     "Rarity": "Common"
