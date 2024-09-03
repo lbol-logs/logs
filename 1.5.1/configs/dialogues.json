@@ -273,5 +273,13 @@
       "4": "line:0e8e6c2",
       "5": "line:0766cf1"
     }
-  ]
+  ],
+  "HecatiaTshirt": {
+    "current": "line:008fa52",
+    "next": {
+      "0": "line:0678716",
+      "1": "line:01566ec",
+      "2": "line:00d22b0"
+    }
+  }
 }

@@ -2474,6 +2474,48 @@
         "Result": 0
       },
       "Id": "NazrinDetect"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 16,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9042,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          0
+        ]
+      },
+      "Id": "HecatiaTshirt"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 17,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9042,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          1
+        ]
+      },
+      "Id": "HecatiaTshirt"
     }
   ],
   "Acts": [
@@ -3058,6 +3100,22 @@
       "Id": "FixBook",
       "Type": "Add",
       "Station": 51
+    },
+    {
+      "Id": "IdolTshirt",
+      "Type": "Add",
+      "Station": 54
+    },
+    {
+      "Id": "IdolTshirt",
+      "Type": "Add",
+      "Station": 55
+    },
+    {
+      "Id": "IdolTshirt",
+      "Type": "Upgrade",
+      "Station": 55,
+      "Counter": 3
     }
   ],
   "Result": {

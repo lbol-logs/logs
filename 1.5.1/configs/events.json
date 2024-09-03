@@ -61,5 +61,9 @@
   "NazrinDetect": {
     "money": 50,
     "coins": 150
+  },
+  "HecatiaTshirt": {
+    "exhibit": "IdolTshirt",
+    "counter": 3
   }
 }
