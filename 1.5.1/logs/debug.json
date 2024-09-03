@@ -2543,6 +2543,29 @@
         ]
       },
       "Id": "KeineSales"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 19,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Money": 38,
+        "Card": "YongyiAttack",
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "MikeInvest"
     }
   ],
   "Acts": [

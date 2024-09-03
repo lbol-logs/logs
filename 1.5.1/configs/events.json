@@ -70,5 +70,9 @@
     "money": 100,
     "power": 30,
     "exhibits": ["Dianshiji", "Xiyiji", "Bingxiang"]
+  },
+  "MikeInvest": {
+    "money": 80,
+    "card": "GainTreasure"
   }
 }
