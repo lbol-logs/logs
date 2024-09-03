@@ -2516,6 +2516,33 @@
         ]
       },
       "Id": "HecatiaTshirt"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 18,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Questions": [
+          0,
+          2
+        ],
+        "Choices": [
+          0,
+          0,
+          0
+        ]
+      },
+      "Id": "KeineSales"
     }
   ],
   "Acts": [
@@ -3116,6 +3143,11 @@
       "Type": "Upgrade",
       "Station": 55,
       "Counter": 3
+    },
+    {
+      "Id": "Dianshiji",
+      "Type": "Add",
+      "Station": 56
     }
   ],
   "Result": {

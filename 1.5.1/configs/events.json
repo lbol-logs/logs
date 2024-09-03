@@ -65,5 +65,10 @@
   "HecatiaTshirt": {
     "exhibit": "IdolTshirt",
     "counter": 3
+  },
+  "KeineSales": {
+    "money": 100,
+    "power": 30,
+    "exhibits": ["Dianshiji", "Xiyiji", "Bingxiang"]
   }
 }

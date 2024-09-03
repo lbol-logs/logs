@@ -281,5 +281,22 @@
       "1": "line:01566ec",
       "2": "line:00d22b0"
     }
-  }
+  },
+  "KeineSales": [
+    {
+      "current": "line:0285d02",
+      "next": {
+        "0": "line:07b190b",
+        "1": "line:0ee3db9"
+      }
+    },
+    {
+      "current": "line:06dcb37",
+      "next": {
+        "0": "line:0032bb0",
+        "1": "line:008a879",
+        "2": "line:05bdc79"
+      }
+    }
+  ]
 }
