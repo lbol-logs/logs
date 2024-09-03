@@ -306,5 +306,12 @@
       "1": "line:085816e",
       "2": "line:0b1cdeb"
     }
+  },
+  "YoumuDelivery": {
+    "current": "line:0577ef3",
+    "next": {
+      "0": "line:0ea45c4",
+      "1": "line:0d7cfde"
+    }
   }
 }

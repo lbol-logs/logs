@@ -74,5 +74,9 @@
   "MikeInvest": {
     "money": 80,
     "card": "GainTreasure"
+  },
+  "YoumuDelivery": {
+    "misfortune": "YuyukoMisfortune",
+    "exhibit": "SadinYuebing"
   }
 }

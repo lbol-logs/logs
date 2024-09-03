@@ -2566,6 +2566,28 @@
         ]
       },
       "Id": "MikeInvest"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 3,
+        "Level": 20,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Card": "YakongDianxue",
+        "Choices": [
+          1
+        ]
+      },
+      "Id": "YoumuDelivery"
     }
   ],
   "Acts": [
@@ -2645,6 +2667,29 @@
         { "X": 20, "Y": 0, "Followers": [], "Type": "Adventure" }
       ],
       "Boss": "Sanae"
+    },
+    {
+      "Act": 4,
+      "Nodes": [
+        { "X": 0, "Y": 0, "Followers": [0], "Type": "Entry" },
+        { "X": 1, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 2, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 3, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 4, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 5, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 6, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 7, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 8, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 9, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 10, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 11, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 12, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 13, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 14, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 15, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 16, "Y": 0, "Followers": [], "Type": "Adventure" }
+      ],
+      "Boss": "Seija"
     }
   ],
   "Cards": [
@@ -2932,6 +2977,12 @@
       "Station": 52,
       "Id": "YukariFlyObject",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 58,
+      "Id": "YuyukoMisfortune",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -3171,6 +3222,11 @@
       "Id": "Dianshiji",
       "Type": "Add",
       "Station": 56
+    },
+    {
+      "Id": "SadinYuebing",
+      "Type": "Add",
+      "Station": 58
     }
   ],
   "Result": {
