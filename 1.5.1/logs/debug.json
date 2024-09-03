@@ -2588,6 +2588,43 @@
         ]
       },
       "Id": "YoumuDelivery"
+    },
+    {
+      "Type": "Entry",
+      "Node": {
+        "Act": 4,
+        "Level": 0,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 1,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "HasExhibit": true,
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "RemiliaMeet"
     }
   ],
   "Acts": [

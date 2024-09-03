@@ -78,5 +78,10 @@
   "YoumuDelivery": {
     "misfortune": "YuyukoMisfortune",
     "exhibit": "SadinYuebing"
+  },
+  "RemiliaMeet": {
+    "cards": ["VampireShoot1", "VampireShoot2"],
+    "misfortune": "FanzhuanChongdong",
+    "exhibit": "Yuhangfu"
   }
 }
