@@ -2673,6 +2673,53 @@
           ]
         ]
       }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 3,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Exhibit": "GaodangShoubao",
+        "Choices": [
+          0,
+          1
+        ],
+        "Rounds": 1,
+        "Id": "YachieBattle"
+      },
+      "Id": "YachieOppression",
+      "Rewards": {
+        "Money": 31,
+        "Cards": [
+          [
+            {
+              "Id": "HuanxiangBlock",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "KuosanJiejie",
+              "IsUpgraded": false
+            }
+          ]
+        ],
+        "Exhibits": [
+          "Tnt"
+        ]
+      }
     }
   ],
   "Acts": [

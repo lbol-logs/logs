@@ -87,5 +87,8 @@
   "RingoEmp": {
     "card": "EmpCard",
     "misfortune": "MarisaForget"
+  },
+  "YachieOppression": {
+    "misfortune": "Pressure"
   }
 }

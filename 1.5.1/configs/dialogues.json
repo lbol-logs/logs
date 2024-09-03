@@ -330,5 +330,21 @@
       "1": "line:0b93b5a",
       "2": "line:095a793"
     }
-  }
+  },
+  "YachieOppression": [
+    {
+      "current": "line:037c786",
+      "next": {
+        "0": "line:07acb62",
+        "1": "line:09e89c0"
+      }
+    },
+    {
+      "current": "line:0970713",
+      "next": {
+        "0": "line:0e2d8d9",
+        "1": "line:01fd35f"
+      }
+    }
+  ]
 }
