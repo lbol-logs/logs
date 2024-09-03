@@ -83,5 +83,9 @@
     "cards": ["VampireShoot1", "VampireShoot2"],
     "misfortune": "FanzhuanChongdong",
     "exhibit": "Yuhangfu"
+  },
+  "RingoEmp": {
+    "card": "EmpCard",
+    "misfortune": "MarisaForget"
   }
 }

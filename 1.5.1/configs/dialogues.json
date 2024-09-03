@@ -322,5 +322,13 @@
       "1_invalid": "line:0855034",
       "2": "line:014dfb8"
     }
+  },
+  "RingoEmp": {
+    "current": "line:00a9945",
+    "next": {
+      "0": "line:05575e9",
+      "1": "line:0b93b5a",
+      "2": "line:095a793"
+    }
   }
 }

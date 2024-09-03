@@ -2625,6 +2625,54 @@
         ]
       },
       "Id": "RemiliaMeet"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 2,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Cards": [
+          "ToolMana",
+          "ToolWeak",
+          "ToolDraw"
+        ],
+        "Choices": [
+          1
+        ]
+      },
+      "Id": "RingoEmp",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "ToolMana",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "ToolWeak",
+              "IsUpgraded": false
+            }
+          ],
+          [
+            {
+              "Id": "ToolDraw",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
     }
   ],
   "Acts": [
@@ -3019,6 +3067,24 @@
       "Type": "Add",
       "Station": 58,
       "Id": "YuyukoMisfortune",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 61,
+      "Id": "MarisaForget",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 61,
+      "Id": "ToolMana",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 61,
+      "Id": "ToolDraw",
       "IsUpgraded": false
     }
   ],
