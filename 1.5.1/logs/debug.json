@@ -2818,6 +2818,33 @@
         ]
       },
       "Id": "MystiaBbq"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 8,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Exhibit": "XiwangMianju",
+        "Choices": [
+          0,
+          1
+        ],
+        "Exhibits": [
+          "Yueshan",
+          "XiwangMianju"
+        ]
+      },
+      "Id": "ParseeJealousy"
     }
   ],
   "Acts": [
@@ -3498,6 +3525,16 @@
       "Id": "Yueshan",
       "Type": "Add",
       "Station": 63
+    },
+    {
+      "Id": "XiwangMianju",
+      "Type": "Add",
+      "Station": 67
+    },
+    {
+      "Id": "XiwangMianju",
+      "Type": "Remove",
+      "Station": 67
     }
   ],
   "Result": {
