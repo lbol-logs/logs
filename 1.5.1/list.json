@@ -1,5 +1,6 @@
-{
-  "demoFail": {
+[
+  {
+    "id": "demoFail",
     "character": "Reimu",
     "type": "A",
     "shining": "ReimuR",
@@ -8,7 +9,8 @@
     "result": "Failure",
     "timestamp": "2024-07-29T23:07:21Z"
   },
-  "demoTrue": {
+  {
+    "id": "demoTrue",
     "character": "Reimu",
     "type": "A",
     "shining": "HuiyeBaoxiang",
@@ -17,7 +19,8 @@
     "result": "TrueEnd",
     "timestamp": "2024-07-30T15:56:31Z"
   },
-  "demoTrue2": {
+  {
+    "id": "demoTrue2",
     "character": "Reimu",
     "type": "A",
     "shining": "ReimuR",
@@ -26,4 +29,4 @@
     "result": "TrueEnd",
     "timestamp": "2024-08-12T13:20:30Z"
   }
-}
+]
