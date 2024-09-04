@@ -2767,6 +2767,31 @@
         ]
       },
       "Id": "EternityAscension"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 6,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Hps": [
+          16,
+          8
+        ],
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "KaguyaVersusMokou"
     }
   ],
   "Acts": [
