@@ -2792,6 +2792,32 @@
         ]
       },
       "Id": "KaguyaVersusMokou"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 7,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          49,
+          25
+        ],
+        "Choices": [
+          0,
+          1
+        ]
+      },
+      "Id": "MystiaBbq"
     }
   ],
   "Acts": [
