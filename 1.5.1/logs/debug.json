@@ -2720,6 +2720,31 @@
           "Tnt"
         ]
       }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 4,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Exhibit": "Yueshan",
+        "Values": [
+          39
+        ],
+        "Choices": [
+          0
+        ]
+      },
+      "Id": "AssistKagerou"
     }
   ],
   "Acts": [
@@ -3133,6 +3158,12 @@
       "Station": 61,
       "Id": "ToolDraw",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 63,
+      "Id": "WolfFur",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -3377,6 +3408,11 @@
       "Id": "SadinYuebing",
       "Type": "Add",
       "Station": 58
+    },
+    {
+      "Id": "Yueshan",
+      "Type": "Add",
+      "Station": 63
     }
   ],
   "Result": {
