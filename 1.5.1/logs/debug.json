@@ -2745,6 +2745,28 @@
         ]
       },
       "Id": "AssistKagerou"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 5,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8942,
+        "Hp": 86,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Card": "HuashanDefense",
+        "Choices": [
+          2
+        ]
+      },
+      "Id": "EternityAscension"
     }
   ],
   "Acts": [
@@ -3163,6 +3185,18 @@
       "Type": "Add",
       "Station": 63,
       "Id": "WolfFur",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Remove",
+      "Station": 64,
+      "Id": "WolfFur",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 64,
+      "Id": "HuashanDefense",
       "IsUpgraded": false
     }
   ],
