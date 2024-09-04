@@ -2845,6 +2845,32 @@
         ]
       },
       "Id": "ParseeJealousy"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 9,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9092,
+        "Hp": 65,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          21,
+          32
+        ],
+        "Choices": [
+          0,
+          0
+        ]
+      },
+      "Id": "RumiaDriving"
     }
   ],
   "Acts": [
