@@ -2871,6 +2871,28 @@
         ]
       },
       "Id": "RumiaDriving"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 10,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9142,
+        "Hp": 65,
+        "MaxHp": 86,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Choices": [
+          0,
+          1
+        ]
+      },
+      "Id": "TewiThreat"
     }
   ],
   "Acts": [
