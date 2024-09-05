@@ -2893,6 +2893,60 @@
         ]
       },
       "Id": "TewiThreat"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 11,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9342,
+        "Hp": 1,
+        "MaxHp": 90,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Hp": 8,
+        "Options": [
+          3,
+          1,
+          4,
+          0,
+          2,
+          5,
+          0,
+          4,
+          3,
+          2
+        ],
+        "Tools": [
+          [
+            "ToolAmulet",
+            "ToolBlock"
+          ]
+        ],
+        "Exhibits": [
+          "Moping",
+          "Zhuzi"
+        ],
+        "Choices": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          2,
+          3
+        ],
+        "Abilities": [
+          "ReimuShrine"
+        ]
+      },
+      "Id": "BackgroundDancers"
     }
   ],
   "Acts": [
@@ -3324,6 +3378,18 @@
       "Station": 64,
       "Id": "HuashanDefense",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 70,
+      "Id": "ToolAmulet",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 70,
+      "Id": "ToolBlock",
+      "IsUpgraded": false
     }
   ],
   "Exhibits": [
@@ -3583,6 +3649,11 @@
       "Id": "XiwangMianju",
       "Type": "Remove",
       "Station": 67
+    },
+    {
+      "Id": "Moping",
+      "Type": "Add",
+      "Station": 70
     }
   ],
   "Result": {
