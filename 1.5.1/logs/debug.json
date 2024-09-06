@@ -2947,6 +2947,31 @@
         ]
       },
       "Id": "BackgroundDancers"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 12,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9342,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 200,
+        "MaxPower": 200
+      },
+      "Data": {
+        "Values": [
+          15,
+          4
+        ],
+        "Choices": [
+          0
+        ]
+      },
+      "Id": "MedicinePoison"
     }
   ],
   "Acts": [
@@ -3389,6 +3414,12 @@
       "Type": "Add",
       "Station": 70,
       "Id": "ToolBlock",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 71,
+      "Id": "SweetPoison",
       "IsUpgraded": false
     }
   ],
