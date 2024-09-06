@@ -3151,6 +3151,72 @@
           ]
         ]
       }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 16,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9058,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Choices": [
+          0
+        ],
+        "Boss": "Junko"
+      },
+      "Id": "BuduSuanming"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 17,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9028,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Choices": [
+          1
+        ],
+        "Host": "Toyohime"
+      },
+      "Id": "BuduSuanming"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 18,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 8998,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Choices": [
+          2
+        ],
+        "Exhibit": "Shendeng"
+      },
+      "Id": "BuduSuanming"
     }
   ],
   "Acts": [
@@ -3250,7 +3316,9 @@
         { "X": 13, "Y": 0, "Followers": [0], "Type": "Adventure" },
         { "X": 14, "Y": 0, "Followers": [0], "Type": "Adventure" },
         { "X": 15, "Y": 0, "Followers": [0], "Type": "Adventure" },
-        { "X": 16, "Y": 0, "Followers": [], "Type": "Adventure" }
+        { "X": 16, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 17, "Y": 0, "Followers": [0], "Type": "Adventure" },
+        { "X": 18, "Y": 0, "Followers": [], "Type": "Adventure" }
       ],
       "Boss": "Seija"
     }
