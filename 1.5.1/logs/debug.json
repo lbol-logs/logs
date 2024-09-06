@@ -2993,6 +2993,164 @@
         ]
       },
       "Id": "MikoDonation"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 14,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9142,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Values": [
+          52,
+          13
+        ],
+        "HasMoney": true,
+        "Choices": [
+          1
+        ]
+      },
+      "Id": "SatoriCounseling",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "HuanxiangBlock",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YoumuAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "DoubleJiejie",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YinyangXueyin",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "FreeFly",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MeihongAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuWeiyan",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MengzhiYuzha",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YukariFlyObject",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YaoguaiBuster",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "Changzhizhen",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "LeiguAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "YunyouShengdi",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ReimuFreeAttack",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ShengtianKick",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "HuaBlock",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "MojingShanjie",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "HappyNewYear",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "ChengDefense",
+              "IsUpgraded": false
+            },
+            {
+              "Id": "HuashanDefense",
+              "IsUpgraded": false
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 15,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9142,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Values": [
+          54,
+          13
+        ],
+        "HasMoney": true,
+        "Choices": [
+          0,
+          1,
+          0
+        ]
+      },
+      "Id": "SatoriCounseling",
+      "Rewards": {
+        "Cards": [
+          [
+            {
+              "Id": "HuashanDefense",
+              "IsUpgraded": true
+            },
+            {
+              "Id": "TianziMana",
+              "IsUpgraded": true
+            },
+            {
+              "Id": "HappyNewYear",
+              "IsUpgraded": true
+            }
+          ]
+        ]
+      }
     }
   ],
   "Acts": [
@@ -3442,6 +3600,18 @@
       "Station": 71,
       "Id": "SweetPoison",
       "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 73,
+      "Id": "FreeFly",
+      "IsUpgraded": false
+    },
+    {
+      "Type": "Add",
+      "Station": 74,
+      "Id": "HappyNewYear",
+      "IsUpgraded": true
     }
   ],
   "Exhibits": [
