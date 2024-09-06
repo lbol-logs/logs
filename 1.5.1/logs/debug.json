@@ -2972,6 +2972,27 @@
         ]
       },
       "Id": "MedicinePoison"
+    },
+    {
+      "Type": "Adventure",
+      "Node": {
+        "Act": 4,
+        "Level": 13,
+        "Y": 0
+      },
+      "Status": {
+        "Money": 9142,
+        "Hp": 94,
+        "MaxHp": 94,
+        "Power": 300,
+        "MaxPower": 300
+      },
+      "Data": {
+        "Choices": [
+          0
+        ]
+      },
+      "Id": "MikoDonation"
     }
   ],
   "Acts": [
@@ -3685,6 +3706,11 @@
       "Id": "Moping",
       "Type": "Add",
       "Station": 70
+    },
+    {
+      "Id": "JuanzengZhengming",
+      "Type": "Add",
+      "Station": 72
     }
   ],
   "Result": {
