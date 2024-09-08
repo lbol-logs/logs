@@ -8,6 +8,33 @@
     "IsAutoSeed": true,
     "Requests": ["PayForUpgrade"],
     "Difficulty": "Easy",
+    "Mods": [
+      {
+        "GUID": "ev.lbol.utils.runLogger",
+        "Name": "Run Logger",
+        "Version": "0.9.5"
+      },
+      {
+        "GUID": "com.bepis.bepinex.scriptengine",
+        "Name": "Script Engine",
+        "Version": "10.0"
+      },
+      {
+        "GUID": "neo.lbol.frameworks.entitySideloader",
+        "Name": "Entity Sideloader",
+        "Version": "0.9.6440"
+      },
+      {
+        "GUID": "neo.lbol.debugMode",
+        "Name": "Debug Mode",
+        "Version": "1.1.0"
+      },
+      {
+        "GUID": "neo.lbol.tools.watermark",
+        "Name": "Add MODDED watermark",
+        "Version": "1.1.1"
+      }
+    ],
     "Status": {
       "Money": 10,
       "Hp": 80,
@@ -3956,6 +3983,8 @@
     "Timestamp": "2020-01-01T13:00:00Z",
     "Cards": [],
     "Exhibits": ["ReimuW"],
-    "BaseMana": "WWWRR"
+    "BaseMana": "WWWRR",
+    "ReloadTimes": 999,
+    "Seed": "2s0ahx9ga909u"
   }
 }
