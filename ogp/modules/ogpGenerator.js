@@ -1,52 +1,59 @@
-import fs from 'fs';
 import sharp from 'sharp';
 import TextToSVG from 'text-to-svg';
-import getRoutes from '../src/getRoutes';
+import { versions } from './globals';
 
-const generateOGP = async function () {
+const generateOGP = function (routes) {
   // TODO: check ogp existance
   // TODO: locales
+
+  const bg = sharp('./images/bg.png');
+  const images = {};
+  const ogps = {};
+  for (const version of versions) {
+    const path = `./static/${version}`;
+    const files = fs.readdirSync(path);
+    ogps[version] = files;
+  }
+
+
   const textToSVG = TextToSVG.loadSync('./static/assets/fonts/NotoSerifJP-Medium.otf');
-  const fileNames = fs.readdirSync('./static/assets/data');
-  for (const key in fileNames) {
-    const file = JSON.parse(fs.readFileSync('./static/assets/data/' + fileNames[key], 'utf8'));
-    const textSvg = await textToSVG.getSVG(file.title, {
+  for (const { route: r, payload } of routes) {
+    if (r === '/') continue;
+
+    const { version, id, title, description, route } = payload;
+    // TODO: uncomment
+    // if (id in ogps[version]) continue;
+
+    const textSvg = textToSVG.getSVG(title, {
       x: 0,
       y: 0,
       fontSize: 100,
       anchor: 'top',
       attributes: { fill: 'black', stroke: 'white' }
     });
-    const image = await sharp('./static/assets/images/' + file.thumbnail);
-    console.log('after image');
-    await image.composite([
+    const dest = './static/ogp/1.5.1/2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd.png';
+    bg
+      .composite([
         {
           input: Buffer.from(textSvg)
         }
       ])
-      // console.log('after composite');
-      // await image.resize(893, 469);
-      // console.log('after resize');
-      await image.toFile('./static/ogp/' + file.slug + '.png', async (error, info) => {
-        // console.log(await info)
-        // console.log(info)
+      // .resize(893, 469);
+      .toFile(dest, async (error) => {
+      // image.toFile('./dist/ogp/1.5.1/2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd.png', async (error) => {
         // eslint-disable-next-line no-console
         if (error) console.log('OGP Generate Error: ' + error);
       });
-      // console.log('after toFile');
-      // console.log('inside', !!image)
-      return image;
   }
 };
 
 module.exports = function () {
-  let image;
-  console.log('ogpGenerator')
-  getRoutes();
-  this.nuxt.hook('generate:before', async (generator) => {
-    generator.routes = routes;
-  });
-
+  this.nuxt.hook('generate:extendRoutes', (routes) => {
+    console.log('OgpGenerator:start')
+    console.log({routes})
+    generateOGP(routes);
+    console.log('OgpGenerator:finish')
+  })
 
   // this.nuxt.hook('generate:before', async (generator) => {
   //   // eslint-disable-next-line no-console

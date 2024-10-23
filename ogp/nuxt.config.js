@@ -1,4 +1,4 @@
-import { routes } from './configs/globals';
+import getRoutes from './src/getRoutes';
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -51,8 +51,8 @@ export default {
     baseUrl: process.env.URL || 'http://localhost:3000'
   },
   generate: {
-    routes() {
-      console.log('generate', {routes})
+    async routes() {
+      const routes = await getRoutes();
       return routes;
     }
   }

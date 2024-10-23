@@ -7,15 +7,27 @@
 <script>
 export default {
   async asyncData({ params, error, payload }) {
+  // TODO
+  // console.log({params, error, payload});
     return { payload };
   },
   data() {
     return {
-      // baseUrl: process.env.baseUrl
+      baseUrl: process.env.baseUrl
     };
   },
   head() {
-    const { title, description, url, ogp } = this.payload;
+    // const { title, description, route } = this.payload;
+
+    const title = 'Title';
+      const description = 'Description';
+      const version = '1.5.1';
+      const id = '2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd';
+      const route = `/${version}/${id}/`;
+
+    const url = 'https://lbol-logs.github.io' + route;
+    const ogp = `${this.baseUrl}/ogp${route.slice(0, -1)}.png`;
+
     return {
       title,
       meta: [
