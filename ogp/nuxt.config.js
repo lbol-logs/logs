@@ -1,3 +1,5 @@
+import { routes } from './configs/globals';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -38,7 +40,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@/modules/ogpGenerater'
+    '@/modules/ogpGenerator'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -50,20 +52,8 @@ export default {
   },
   generate: {
     routes() {
-      // TODO: routes
-      const routes = []
-      const fs = require('fs')
-      const fileNames = fs.readdirSync('./static/assets/data')
-      for (const key in fileNames) {
-      const page = JSON.parse(
-        fs.readFileSync('./static/assets/data/' + fileNames[key], 'utf8')
-      )
-      routes.push({
-        route: '/' + page.slug,
-        payload: page
-      })
-      }
-      return routes
+      console.log('generate', {routes})
+      return routes;
     }
   }
 }
