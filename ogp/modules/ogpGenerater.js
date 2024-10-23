@@ -16,7 +16,7 @@ const generateOGP = function () {
    anchor: 'top',
    attributes: { fill: 'black', stroke: 'white' }
   })
-  sharp('./assets/images/' + file.thumbnail)
+  sharp('./static/assets/images/' + file.thumbnail)
    .composite([
     {
      input: Buffer.from(textSvg)
