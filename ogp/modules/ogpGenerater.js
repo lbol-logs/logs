@@ -33,7 +33,7 @@ const generateOGP = async function () {
       //   if (error) console.log('OGP Generate Error: ' + error);
       // });
       // console.log('after toFile');
-
+      console.log('inside', !!image)
       return image;
   }
 };
@@ -44,18 +44,21 @@ module.exports = function () {
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:start')
     image = await generateOGP();
+    console.log('outside', !!image)
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:finish')
   })
 
-  this.nuxt.hook('generate:after', async (generator) => {
-    console.log('after:start')
+  this.nuxt.hook('generate:done', async (generator) => {
+    console.log('generate:done:start')
+    console.log('done', !!image)
     image.toFile('./static/ogp/page1.png', async (error, info) => {
       // console.log(await info)
+      await info
       console.log(info)
       // eslint-disable-next-line no-console
       if (error) console.log('OGP Generate Error: ' + error);
     });
-    console.log('after:end')
+    console.log('generate:done:end')
   });
 };
