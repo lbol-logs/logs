@@ -1,5 +1,2 @@
-[build]
-  base = "ogp"
-
 [generate]
   base = "ogp"
