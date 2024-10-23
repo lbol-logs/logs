@@ -9,7 +9,7 @@ const generateOGP = async function () {
   const fileNames = fs.readdirSync('./static/assets/data');
   for (const key in fileNames) {
     const file = JSON.parse(fs.readFileSync('./static/assets/data/' + fileNames[key], 'utf8'));
-    const textSvg = textToSVG.getSVG(file.title, {
+    const textSvg = await textToSVG.getSVG(file.title, {
       x: 0,
       y: 0,
       fontSize: 100,
@@ -26,7 +26,8 @@ const generateOGP = async function () {
       console.log('after resize');
       await image.resize(1200, 630);
       console.log('after composite');
-      await image.toFile('./static/ogp/' + file.slug + '.png', (error, info) => {
+      await image.toFile('./static/ogp/' + file.slug + '.png', async (error, info) => {
+        // console.log(await info)
         console.log(info)
         // eslint-disable-next-line no-console
         if (error) console.log('OGP Generate Error: ' + error);
@@ -36,10 +37,10 @@ const generateOGP = async function () {
 };
 
 module.exports = function () {
-  this.nuxt.hook('generate:before', (generator) => {
+  this.nuxt.hook('generate:before', async (generator) => {
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:start')
-    generateOGP();
+    await generateOGP();
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:finish')
   })
