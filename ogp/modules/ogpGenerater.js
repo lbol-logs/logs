@@ -7,7 +7,6 @@ const generateOGP = async function () {
   // TODO: locales
   const textToSVG = TextToSVG.loadSync('./static/assets/fonts/NotoSerifJP-Medium.otf');
   const fileNames = fs.readdirSync('./static/assets/data');
-  console.log({ fileNames });
   for (const key in fileNames) {
     const file = JSON.parse(fs.readFileSync('./static/assets/data/' + fileNames[key], 'utf8'));
     const textSvg = textToSVG.getSVG(file.title, {
@@ -17,17 +16,22 @@ const generateOGP = async function () {
       anchor: 'top',
       attributes: { fill: 'black', stroke: 'white' }
     });
-    await sharp('./static/assets/images/' + file.thumbnail)
-      .composite([
+    const image = await sharp('./static/assets/images/' + file.thumbnail);
+    console.log('after image');
+    await image.composite([
         {
           input: Buffer.from(textSvg)
         }
       ])
-      .resize(1200, 630)
-      .toFile('./static/ogp/' + file.slug + '.png', (error) => {
+      console.log('after resize');
+      await image.resize(1200, 630);
+      console.log('after composite');
+      await image.toFile('./static/ogp/' + file.slug + '.png', (error, info) => {
+        console.log(info)
         // eslint-disable-next-line no-console
         if (error) console.log('OGP Generate Error: ' + error);
       });
+      console.log('after toFile');
   }
 };
 
