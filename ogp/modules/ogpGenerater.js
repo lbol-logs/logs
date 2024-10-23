@@ -52,7 +52,7 @@ module.exports = function () {
   this.nuxt.hook('generate:done', async (generator) => {
     console.log('generate:done:start')
     console.log('done', !!image)
-    image.toFile('./static/ogp/page1.png');
+    image.toFile('./dist/ogp/page1.png');
     console.log('generate:done:end')
   });
 };
