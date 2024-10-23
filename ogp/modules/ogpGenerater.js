@@ -49,7 +49,7 @@ module.exports = function () {
     console.log('OgpGenerater:finish')
   })
 
-  this.nuxt.hook('buil:done', async (generator) => {
+  this.nuxt.hook('build:done', async (generator) => {
     console.log('build:done:start')
     console.log('done', !!image)
     image.toFile('./static/ogp/page1.png');
