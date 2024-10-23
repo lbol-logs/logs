@@ -49,16 +49,10 @@ module.exports = function () {
     console.log('OgpGenerater:finish')
   })
 
-  this.nuxt.hook('generate:done', async (generator) => {
-    console.log('generate:done:start')
+  this.nuxt.hook('buil:done', async (generator) => {
+    console.log('build:done:start')
     console.log('done', !!image)
-    image.toFile('./static/ogp/page1.png', async (error, info) => {
-      // console.log(await info)
-      await info
-      console.log(info)
-      // eslint-disable-next-line no-console
-      if (error) console.log('OGP Generate Error: ' + error);
-    });
-    console.log('generate:done:end')
+    image.toFile('./static/ogp/page1.png');
+    console.log('build:done:end')
   });
 };
