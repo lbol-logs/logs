@@ -1,6 +1,6 @@
 
 /.vscode
-/ogp/static/ogp/*.png
+# /ogp/static/ogp/*.png
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
