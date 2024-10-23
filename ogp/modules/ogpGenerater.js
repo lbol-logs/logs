@@ -23,25 +23,39 @@ const generateOGP = async function () {
           input: Buffer.from(textSvg)
         }
       ])
-      console.log('after resize');
-      await image.resize(1200, 630);
       console.log('after composite');
-      await image.toFile('./static/ogp/' + file.slug + '.png', async (error, info) => {
-        // console.log(await info)
-        console.log(info)
-        // eslint-disable-next-line no-console
-        if (error) console.log('OGP Generate Error: ' + error);
-      });
-      console.log('after toFile');
+      await image.resize(1200, 630);
+      console.log('after resize');
+      // await image.toFile('./static/ogp/' + file.slug + '.png', async (error, info) => {
+      //   // console.log(await info)
+      //   console.log(info)
+      //   // eslint-disable-next-line no-console
+      //   if (error) console.log('OGP Generate Error: ' + error);
+      // });
+      // console.log('after toFile');
+
+      return image;
   }
 };
 
 module.exports = function () {
+  let image;
   this.nuxt.hook('generate:before', async (generator) => {
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:start')
-    await generateOGP();
+    image = await generateOGP();
     // eslint-disable-next-line no-console
     console.log('OgpGenerater:finish')
   })
+
+  this.nuxt.hook('generate:after', async (generator) => {
+    console.log('after:start')
+    image.toFile('./static/ogp/page1.png', async (error, info) => {
+      // console.log(await info)
+      console.log(info)
+      // eslint-disable-next-line no-console
+      if (error) console.log('OGP Generate Error: ' + error);
+    });
+    console.log('after:end')
+  });
 };
