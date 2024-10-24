@@ -1,1 +1,0 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7d78adf0-953e-42cc-834c-19d67cf7b40f/deploy-status)](https://app.netlify.com/sites/lbol-logs/deploys)
