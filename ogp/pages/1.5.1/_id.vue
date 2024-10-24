@@ -77,13 +77,23 @@ export default {
         {
           hid: 'twitter:card',
           name: 'twitter:card',
-          content: 'summary',
+          content: 'summary_large_image',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Twitter Title',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Twitter Description',
         },
         // {
         //   hid: 'refresh',
         //   'http-equiv': 'refresh',
         //   content: `0;${url}`
-        // },
+        // }
       ],
       link: [
         {
