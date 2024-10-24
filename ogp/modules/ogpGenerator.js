@@ -3,6 +3,13 @@ import sharp from 'sharp';
 import TextToSVG from 'text-to-svg';
 import { versions } from '../src/globals';
 
+const resultTypes = {
+  Failure: 'Failure',
+  NormalEnd: 'Normal',
+  TrueEndFail: 'Normal',
+  TrueEnd: 'TrueEnd'
+};
+
 const generateOGP = async function (routes) {
   // TODO: check ogp existance
   // TODO: locales
@@ -18,7 +25,6 @@ const generateOGP = async function (routes) {
     // .png()
     // .toBuffer();
 
-  const bg = sharp('./images/bg.png');
   const images = {};
   const ogps = {};
   const dir = './dist/ogp';
@@ -27,6 +33,12 @@ const generateOGP = async function (routes) {
     const files = fs.readdirSync(path);
     ogps[version] = files;
   }
+
+  const imgDir = './images';
+  const bg = sharp(`${imgDir}/bg.png`);
+  const circle = Buffer.from(
+    '<svg><circle fill="none" stroke="#ff9400" stroke-width="2" cx="34" cy="34" r="33" /></svg>'
+  );
 
   const textToSVG = TextToSVG.loadSync('./fonts/NotoSerifJP-Medium.otf');
   for (const { route: r, payload } of routes) {
@@ -39,6 +51,10 @@ const generateOGP = async function (routes) {
     // TODO: uncomment
     // if (id in ogps[version]) continue;
 
+    const dest = `${dir}/${version}/${id}.png`;
+
+    const result = await sharp(`${imgDir}/${Character}${resultTypes[Type]}.png`).toBuffer();
+
     const timestamp = new Date(Timestamp).toLocaleString('ja-JP', { timeZone: 'UTC' }) + ' (UTC)';
 
     const textSvg = textToSVG.getSVG(timestamp, {
@@ -46,28 +62,41 @@ const generateOGP = async function (routes) {
       y: 0,
       anchor: 'top',
       fontSize: 40,
-      attributes: { fill: 'white', stroke: 'black', 'stroke-width': 2, 'stroke-opacity': 0.6 }
+      attributes: { fill: 'white', stroke: 'black', 'stroke-width': 2, 'stroke-opacity': 0.4 }
     });
-    const dest = `${dir}/${version}/${id}.png`;
+
+    const top = 30;
+    const bottom = 68 + 65;
+
     try {
       await bg
       .extend({
-        top: 47,
-        bottom: 47 + 68,
+        top,
+        bottom,
         background: { r: 255, g: 255, b: 255, alpha: 0 }
       })
       .composite([
         {
           input: Buffer.from(textSvg),
-          top: 247,
+          top: top + 200,
           left: 320
+        },
+        {
+          input: result,
+          top,
+          left: 0
+        },
+        {
+          input: circle,
+          top: top + 306,
+          left: 0
         }
       ])
       .toFile(dest);
     }
     catch (e) {
       // eslint-disable-next-line no-console
-      console.error('OGP Generate Error: ' + error);
+      console.error('OGP Generate Error: ' + e);
     }
   }
 };
