@@ -1,6 +1,7 @@
+import fs from 'fs';
 import sharp from 'sharp';
 import TextToSVG from 'text-to-svg';
-import { versions } from './globals';
+import { versions } from '../src/globals';
 
 const generateOGP = function (routes) {
   // TODO: check ogp existance
