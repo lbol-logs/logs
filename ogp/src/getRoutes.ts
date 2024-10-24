@@ -1,8 +1,10 @@
-import { versions } from './globals';
+import { githubUrl, versions } from './globals';
 
 async function getRoutes({ baseUrl, siteName }: { baseUrl: string, siteName: string }) {
   const routes = [];
   const fs = require('fs');
+
+  routes.push({ route: '/404', payload: { githubUrl }})
 
   for (const version of versions) {
     const dir = `../docs/${version}/logs`;
@@ -30,7 +32,7 @@ async function getRoutes({ baseUrl, siteName }: { baseUrl: string, siteName: str
       ].join(' ') + ' | ' + siteName;
       const description = Description ? Description.replace(/([a-zA-Z0-9])$\n/g, '$1. ').replace(/(http?s:\/\/[^ ]+). /g, '$1').replace(/\n/g, '') : '';
       const path = `${version}/${id}`;
-      const url = `https://lbol-logs.github.io/${path}/`;
+      const url = `${githubUrl}${path}/`;
       const ogp = `${baseUrl}/ogp/${path}.png`;
 
       const route = `/${path}/`;

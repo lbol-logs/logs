@@ -46,7 +46,7 @@ const generateOGP = async function (routes) {
   let skipped = 0;
 
   for (const { route, payload } of routes) {
-    if (route === '/') continue;
+    if (route === '/404') continue;
 
     const {
       version, id,
