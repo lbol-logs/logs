@@ -1,35 +1,23 @@
 <template>
   <div class="container">
-    Redirecting...
+    Redirecting to the <a :href="payload.url">log</a>...
   </div>
 </template>
 
 <script>
 export default {
   async asyncData({ params, error, payload }) {
-  // TODO
-  console.log({params, error, payload});
+    // TODO
+    // console.log({params, error, payload});
     return { payload };
   },
   data() {
     return {
-      baseUrl: process.env.baseUrl
+      siteName: process.env.siteName
     };
   },
   head() {
-    // const { title, description, route } = this.payload;
-
-    const title = 'Title';
-    const description = 'Description';
-    // const description = '';
-    const version = '1.5.1';
-    const id = '2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd';
-    const route = `/${version}/${id}/`;
-
-    const url = 'https://lbol-logs.github.io' + route;
-    const ogp = `${this.baseUrl}/ogp${route.slice(0, -1)}.png`;
-
-    const siteName = 'LBoL Logs';
+    const { version, id, title, description, url, ogp } = this.payload;
 
     return {
       title,
@@ -72,22 +60,12 @@ export default {
         {
           hid: 'og:site_name',
           property: 'og:site_name',
-          content: siteName,
+          content: this.siteName,
         },
         {
           hid: 'twitter:card',
           name: 'twitter:card',
           content: 'summary_large_image',
-        },
-        {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: 'Twitter Title',
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: 'Twitter Description',
         },
         // {
         //   hid: 'refresh',
