@@ -20,8 +20,8 @@ export default {
     // const { title, description, route } = this.payload;
 
     const title = 'Title';
-    // const description = 'Description';
-    const description = '';
+    const description = 'Description';
+    // const description = '';
     const version = '1.5.1';
     const id = '2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd';
     const route = `/${version}/${id}/`;
