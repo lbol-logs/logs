@@ -40,7 +40,7 @@ class Text {
         attributes: {
           fill: color,
           stroke: 'black',
-          'stroke-width': '2',
+          'stroke-width': '1',
           'stroke-opacity': '0.55'
         }
       };
