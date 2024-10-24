@@ -1,5 +1,6 @@
 import sharp, { Sharp, ResizeOptions } from 'sharp';
 import Text from './Text';
+import { transparent } from './globals';
 
 class Img {
   private readonly dir: string = './images';
@@ -36,18 +37,18 @@ class Result extends Img {
 
   async get(name: string) {
     try {
-      const image = await super.get(name, { width: 448, height: 306 });
+      const image = await super.get(name.replace(',', ''), { width: 448, height: 306 });
       return image;
     }
     catch(e: unknown) {
       if (e instanceof Error) {
         if (!e.message.startsWith('Input file is missing')) console.error(e);
       }
-      const top = 20;
+      const top = 80;
       const left = 10;
-      const options = { top, left, background: { r: 255, g: 255, b: 255, alpha: 0 } };
+      const options = { top, left, background: transparent };
 
-      const text = this.text.get(name);
+      const text = this.text.get(name.split(',')[0]);
       return await sharp(text).extend(options).toBuffer();
     }
   }

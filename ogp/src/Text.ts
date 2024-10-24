@@ -1,8 +1,8 @@
-import TextToSVG, { GenerationOptions } from 'text-to-svg';
+import TextToSVG, { GenerationOptions, Metrics } from 'text-to-svg';
 
 
 class Text {
-  private readonly buffers: Record<string, Buffer> = {};
+  private readonly buffers: Record<string, { buffer: Buffer, metrics: Metrics }> = {};
 
   private textToSVG: TextToSVG;
 
@@ -22,16 +22,24 @@ class Text {
   };
 
   constructor() {
-    this.textToSVG = TextToSVG.loadSync('./fonts/NotoSerifJP-Medium.otf');;
+    this.textToSVG = TextToSVG.loadSync('./fonts/NotoSerifJP-Medium.otf');
   }
 
   get(text: string) {
+    return this._get({ text }).buffer;
+  }
+
+  getMetrics(text: string) {
     return this._get({ text });
   }
   
   private _get({ text, color = 'white', size = 1 }: { text: string, color?: string, shadow?: string, size?: number }) {
-    let buffer = this.buffers['text'];
-    if (buffer === undefined) {
+    let buffer, metrics;
+    const o = this.buffers[text];
+    if (buffer !== undefined) {
+      ({ buffer, metrics } = o);
+    }
+    else {
       const options: GenerationOptions = {
         x: 0,
         y: 0,
@@ -40,20 +48,21 @@ class Text {
         attributes: {
           fill: color,
           stroke: 'black',
-          'stroke-width': '1',
-          'stroke-opacity': '0.8'
+          'stroke-width': '2',
+          'stroke-opacity': '0.5'
         }
       };
-      const string = this.textToSVG.getSVG(text, options);
-      buffer = Buffer.from(string);
-      this.buffers[text] = buffer;
+      const svg = this.textToSVG.getSVG(text, options);
+      buffer = Buffer.from(svg);
+      metrics = this.textToSVG.getMetrics(text, options);
+      this.buffers[text] = { buffer, metrics };
     }
-    return buffer;
+    return { buffer, metrics };
   }
 
   getResult(type: string) {
     const { text, color } = this.RESULTS[type];
-    return this._get({ text, color, size: 0.9 });
+    return this._get({ text, color, size: 0.9 }).buffer;
   }
 }
 
