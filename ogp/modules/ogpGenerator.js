@@ -132,7 +132,6 @@ const generateOGP = async function (routes) {
 module.exports = function () {
   this.nuxt.hook('generate:extendRoutes', async (routes) => {
     console.log('OgpGenerator:start')
-    console.log({routes})
     await generateOGP(routes);
     console.log('OgpGenerator:finish')
   })

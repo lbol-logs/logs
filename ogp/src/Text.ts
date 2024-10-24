@@ -22,6 +22,7 @@ class Text {
   };
 
   constructor() {
+    // TODO: simplified chinese
     this.textToSVG = TextToSVG.loadSync('./fonts/NotoSerifJP-Medium.otf');
   }
 
@@ -47,7 +48,7 @@ class Text {
         fontSize: 40 * size,
         attributes: {
           fill: color,
-          stroke: 'black',
+          stroke: color,
           'stroke-width': '2',
           'stroke-opacity': '0.5'
         }

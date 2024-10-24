@@ -26,17 +26,14 @@ class _Badge {
     let buffer = this.buffers[string];
     if (buffer === undefined) {
       const { buffer: text, metrics } = this.text.getMetrics(string);
-      console.log({metrics})
       const input = await sharp(text).extend({ top, left, bottom: top, right: left, background: transparent }).toBuffer();
 
       const { width, height } = metrics;
-      console.log({string, width})
       const key = [width, height].join(',');
 
       let bg = this.bgs[key];
       if (bg === undefined) {
         const w = Math.ceil(width + left * 2);
-        console.log({w})
         const h = Math.ceil(height + top * 2);
         bg = sharp({
           create: {
