@@ -75,8 +75,6 @@ const generateOGP = async function (routes) {
     const bottom = 68 + 75;
     const left = 340;
 
-    // TODO
-    // const mod = getMod(Character);
     const badges = [];
     badges.push({ input: await badge.getVersion(version), top, left: 0});
     if (Name) badges.push({ input: await badge.getName(Name), top: top + 200, left: 0 });
