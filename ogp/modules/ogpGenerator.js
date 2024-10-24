@@ -88,7 +88,7 @@ const generateOGP = async function (routes) {
         },
         {
           input: result,
-          top: top + 50,
+          top: top + 60,
           left
         },
         {
