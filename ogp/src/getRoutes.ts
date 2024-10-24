@@ -15,6 +15,9 @@ async function getRoutes() {
     for (const o of list.reverse()) {
       const { id } = o;
 
+      // TODO: remove
+      if (id !== '2024-10-23T09-58-19Z_Sanae_Kochiya_B_SanaeExhibitU_L7_TrueEnd') continue;
+
       const title = 'Title';
       const description = 'Description';
       const route = `/${version}/${id}/`;
@@ -22,8 +25,7 @@ async function getRoutes() {
       const payload = { version, id, title, description, route };
       routes.push({ route, payload });
 
-      // TODO: remove
-      break;
+
     }
   }
   return routes;
