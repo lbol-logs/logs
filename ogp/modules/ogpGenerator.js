@@ -1,7 +1,8 @@
 import fs from 'fs';
-import sharp from 'sharp';
-import TextToSVG from 'text-to-svg';
 import { versions } from '../src/globals';
+import { Result } from '../src/Img';
+import Text from '../src/Text';
+import Requests from '../src/Requests';
 
 const resultTypes = {
   Failure: 'Failure',
@@ -11,8 +12,6 @@ const resultTypes = {
 };
 
 const generateOGP = async function (routes) {
-  // TODO: check ogp existance
-  // TODO: locales
 
   // const container = sharp({
   //   create: {
@@ -34,39 +33,45 @@ const generateOGP = async function (routes) {
     ogps[version] = files;
   }
 
-  const imgDir = './images';
-  const bg = sharp(`${imgDir}/bg.png`);
-  const circle = Buffer.from(
-    '<svg><circle fill="none" stroke="#ff9400" stroke-width="2" cx="34" cy="34" r="33" /></svg>'
-  );
+  const text = new Text();
 
-  const textToSVG = TextToSVG.loadSync('./fonts/NotoSerifJP-Medium.otf');
-  for (const { route: r, payload } of routes) {
-    if (r === '/') continue;
+  const res = new Result(text);
+  const req = new Requests();
+
+  const bg = res.getSharp('bg');
+
+  for (const { route, payload } of routes) {
+    if (route === '/') continue;
 
     const {
       version, id, title, description, url, ogp,
       Name, Character, PlayerType, Difficulty, Requests, shining, Type, Timestamp
     } =  payload;
+
     // TODO: uncomment
-    // if (id in ogps[version]) continue;
+    // if (id in ogps[version]) {
+    //   console.log(`[SKIP]: ${id}`)
+    //   continue;
+    // }
 
     const dest = `${dir}/${version}/${id}.png`;
 
-    const result = await sharp(`${imgDir}/${Character}${resultTypes[Type]}.png`).toBuffer();
+    const resultImage = await res.get(Character + resultTypes[Type]);
+    const requests = req.get(Requests);
 
+    const result = text.getResult(Type);
+    const len = Requests.length;
+    const difficultyRequests = text.get(Difficulty + (len ? ` (${len})` : ''));
     const timestamp = new Date(Timestamp).toLocaleString('ja-JP', { timeZone: 'UTC' }) + ' (UTC)';
+    const ts = text.get(timestamp);
 
-    const textSvg = textToSVG.getSVG(timestamp, {
-      x: 0,
-      y: 0,
-      anchor: 'top',
-      fontSize: 40,
-      attributes: { fill: 'white', stroke: 'black', 'stroke-width': 2, 'stroke-opacity': 0.4 }
-    });
+    // TODO
+    // const mod = getMod(Character);
+    const badges = [];
 
-    const top = 30;
-    const bottom = 68 + 65;
+    const top = 20;
+    const bottom = 68 + 75;
+    const left = 340;
 
     try {
       await bg
@@ -77,24 +82,35 @@ const generateOGP = async function (routes) {
       })
       .composite([
         {
-          input: Buffer.from(textSvg),
-          top: top + 200,
-          left: 320
-        },
-        {
-          input: result,
+          input: resultImage,
           top,
           left: 0
         },
         {
-          input: circle,
+          input: result,
+          top: top + 50,
+          left
+        },
+        {
+          input: difficultyRequests,
+          top: top + 120,
+          left
+        },
+        {
+          input: ts,
+          top: top + 200,
+          left
+        },
+        ...badges,
+        {
+          input: requests,
           top: top + 306,
           left: 0
         }
       ])
       .toFile(dest);
     }
-    catch (e) {
+    catch(e) {
       // eslint-disable-next-line no-console
       console.error('OGP Generate Error: ' + e);
     }
@@ -108,20 +124,4 @@ module.exports = function () {
     await generateOGP(routes);
     console.log('OgpGenerator:finish')
   })
-
-  // this.nuxt.hook('generate:before', async (generator) => {
-  //   // eslint-disable-next-line no-console
-  //   console.log('OgpGenerator:start')
-  //   image = await generateOGP();
-  //   // console.log('outside', !!image)
-  //   // eslint-disable-next-line no-console
-  //   console.log('OgpGenerator:finish')
-  // })
-
-  // this.nuxt.hook('generate:done', async (generator) => {
-  //   console.log('generate:done:start')
-  //   console.log('done', !!image)
-  //   image.toFile('./dist/ogp/page1.png');
-  //   console.log('generate:done:end')
-  // });
 };

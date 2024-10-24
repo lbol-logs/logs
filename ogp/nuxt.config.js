@@ -53,8 +53,8 @@ export default {
 
   env,
   generate: {
-    async routes() {
-      const routes = await getRoutes(env);
+    routes() {
+      const routes = getRoutes(env);
       return routes;
     }
   }

@@ -7,8 +7,6 @@
 <script>
 export default {
   async asyncData({ params, error, payload }) {
-    // TODO
-    // console.log({params, error, payload});
     return { payload };
   },
   data() {
@@ -67,11 +65,11 @@ export default {
           name: 'twitter:card',
           content: 'summary_large_image',
         },
-        // {
-        //   hid: 'refresh',
-        //   'http-equiv': 'refresh',
-        //   content: `0;${url}`
-        // }
+        {
+          hid: 'refresh',
+          'http-equiv': 'refresh',
+          content: `0;${url}`
+        }
       ],
       link: [
         {
