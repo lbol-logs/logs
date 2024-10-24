@@ -41,7 +41,7 @@ class Text {
           fill: color,
           stroke: 'black',
           'stroke-width': '1',
-          'stroke-opacity': '0.55'
+          'stroke-opacity': '0.8'
         }
       };
       const string = this.textToSVG.getSVG(text, options);
