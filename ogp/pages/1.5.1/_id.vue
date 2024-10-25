@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    Redirecting to the <a id="link" :href="payload.url">log</a>...
+    Redirecting to the <a id="link" :href="payload.url" :data-query="JSON.stringify(query)">log</a>...
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ params, error, payload }) {
-    return { payload };
+  async asyncData({ params, error, payload, query }) {
+    return { payload, query };
   },
   data() {
     return {
