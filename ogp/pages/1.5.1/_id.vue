@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Redirecting to the <a id="link" :href="payload.url">log</a>...
+    Redirecting to the <a id="link" :href="payload.url" :data-query="JSON.stringify(query)">log</a>...
   </div>
 </template>
 
