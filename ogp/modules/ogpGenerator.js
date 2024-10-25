@@ -54,11 +54,11 @@ const generateOGP = async function (routes) {
     } =  payload;
 
     // TODO: uncomment
-    // if (id in ogps[version]) {
-    //   console.log(`[SKIP]: ${id}`)
-    //   skipped++;
-    //   continue;
-    // }
+    if (id in ogps[version]) {
+      console.log(`[SKIP]: ${id}`)
+      skipped++;
+      continue;
+    }
 
     const dest = `${dir}/${version}/${id}.png`;
 

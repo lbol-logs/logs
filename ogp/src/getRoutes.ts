@@ -21,7 +21,7 @@ async function getRoutes({ baseUrl, siteName }: { baseUrl: string, siteName: str
       // if (id !== '2024-10-23T06-18-54Z_PatchouliMod_B_XianzheShi_L6_TrueEnd') continue;
 
       // TODO: remove
-      if (i++ < 6) continue;
+      if (i++ < 5) continue;
 
       const { Name, Settings: { Character, PlayerType, Difficulty, Requests }, Result: { Type, Timestamp, Exhibits }, Description } = runData;
       const shining = Exhibits[0];
