@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { transparent, versions, characters } from '../src/globals';
-import { Result } from '../src/Img';
+import { Result, Spellcard, Shining } from '../src/Img';
 import Text from '../src/Text';
 import Requests from '../src/Requests';
 import Badge from '../src/Badge';
@@ -25,6 +25,8 @@ const generateOGP = async function () {
   const text = new Text();
 
   const res = new Result(text);
+  const sc = new Spellcard(text);
+  const sh = new Shining(text);
   const req = new Requests();
   const badge = new Badge(text);
 
@@ -42,16 +44,18 @@ const generateOGP = async function () {
     } =  payload;
 
     const filename = `${id}.png`;
-    // TODO: uncomment
-    // if (ogps[version].includes(filename)) {
-    //   console.log(`[SKIP]: ${id}`)
-    //   skipped++;
-    //   continue;
-    // }
+
+    if (ogps[version].includes(filename)) {
+      console.log(`[SKIP]: ${id}`)
+      skipped++;
+      continue;
+    }
 
     const dest = `${dir}/${version}/${filename}`;
 
-    const resultImage = await res.get([Character, resultTypes[Type]].join(','));
+    const resultImage = await res.get({ character: Character, type: resultTypes[Type] });
+    const spellcard = await sc.get({ character: Character, type: PlayerType });
+    const exhibit = await sh.get({ shining, type: PlayerType });
     const requests = req.get(Requests);
 
     const result = text.getResult(Type);
@@ -81,6 +85,16 @@ const generateOGP = async function () {
             input: resultImage,
             top,
             left: 0
+          },
+          {
+            input: spellcard,
+            top: top + 100,
+            left: 580
+          },
+          {
+            input: exhibit,
+            top: top + 100,
+            left: 700
           },
           {
             input: result,
