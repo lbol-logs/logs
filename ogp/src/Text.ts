@@ -15,6 +15,10 @@ class Text {
       text: 'Incident Resolved',
       color: '#d1cef3'
     },
+    TrueEndFail: {
+      text: 'Incident Resolved',
+      color: '#d1cef3'
+    },
     TrueEnd: {
       text: 'Perfect Incident Resolution',
       color: '#fdfdc1'
