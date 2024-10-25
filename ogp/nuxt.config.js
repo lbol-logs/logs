@@ -1,8 +1,5 @@
-import getRoutes from './src/getRoutes';
-
-const baseUrl = process.env.URL || 'http://localhost:3000';
-const siteName = 'LBoL Logs';
-const env = { baseUrl, siteName };
+import { env } from './src/globals';
+import Routes from './src/Routes';
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -54,8 +51,7 @@ export default {
   env,
   generate: {
     routes() {
-      const routes = getRoutes(env);
-      return routes;
+      return Routes.get();
     }
   }
 }

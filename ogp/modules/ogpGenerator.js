@@ -4,6 +4,7 @@ import { Result } from '../src/Img';
 import Text from '../src/Text';
 import Requests from '../src/Requests';
 import Badge from '../src/Badge';
+import Routes from '../src/Routes';
 
 const resultTypes = {
   Failure: 'Failure',
@@ -12,22 +13,9 @@ const resultTypes = {
   TrueEnd: 'TrueEnd'
 };
 
-const generateOGP = async function (routes) {
-
-  // const container = sharp({
-  //   create: {
-  //     width: 893,
-  //     height: 469,
-  //     channels: 4,
-  //     background: { r: 255, g: 255, b: 255, alpha: 0 }
-  //   }
-  // })
-    // .png()
-    // .toBuffer();
-
-  const images = {};
+const generateOGP = async function () {
   const ogps = {};
-  const dir = './dist/ogp';
+  const dir = './static/ogp';
   for (const version of versions) {
     const path = `${dir}/${version}`;
     const files = fs.readdirSync(path);
@@ -45,7 +33,7 @@ const generateOGP = async function (routes) {
   let created = 0;
   let skipped = 0;
 
-  for (const { route, payload } of routes) {
+  for (const { route, payload } of Routes.get()) {
     if (route === '/404') continue;
 
     const {
@@ -53,14 +41,15 @@ const generateOGP = async function (routes) {
       Name, Character, PlayerType, Difficulty, Requests, shining, Type, Timestamp
     } =  payload;
 
+    const filename = `${id}.png`;
     // TODO: uncomment
-    if (id in ogps[version]) {
-      console.log(`[SKIP]: ${id}`)
-      skipped++;
-      continue;
-    }
+    // if (ogps[version].includes(filename)) {
+    //   console.log(`[SKIP]: ${id}`)
+    //   skipped++;
+    //   continue;
+    // }
 
-    const dest = `${dir}/${version}/${id}.png`;
+    const dest = `${dir}/${version}/${filename}`;
 
     const resultImage = await res.get([Character, resultTypes[Type]].join(','));
     const requests = req.get(Requests);
@@ -130,9 +119,9 @@ const generateOGP = async function (routes) {
 };
 
 module.exports = function () {
-  this.nuxt.hook('generate:extendRoutes', async (routes) => {
+  this.nuxt.hook('generate:before', async () => {
     console.log('OgpGenerator:start')
-    await generateOGP(routes);
+    await generateOGP();
     console.log('OgpGenerator:finish')
   })
 };

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Redirecting to the <a :href="payload.url">log</a>...
+    Redirecting to the <a id="link" :href="payload.url">log</a>...
   </div>
 </template>
 
@@ -64,11 +64,6 @@ export default {
           hid: 'twitter:card',
           name: 'twitter:card',
           content: 'summary_large_image',
-        },
-        {
-          hid: 'refresh',
-          'http-equiv': 'refresh',
-          content: `0;${url}`
         }
       ],
       link: [
@@ -77,8 +72,27 @@ export default {
           rel: 'canonical',
           href: url
         }
+      ],
+      script: [
+        {
+          src: '/redirect.js'
+        }
       ]
     };
   },
+  // created() {
+  //   console.log(window.location.href)
+  // }
 };
 </script>
+
+<!-- <script setup>
+const { payload: { url }, query } = this;
+const qs = Object.entries(query).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+const href = url + (qs ? ('?' + qs) : '');
+console.log({href})
+if (process.browser) {
+  window.location.href = href;
+  link.href = href;
+}
+</script> -->

@@ -21,14 +21,14 @@ export default {
       title: this.siteName,
       meta: [
         {
-          hid: 'robots',
-          name: 'robots',
-          content: 'noindex'
-        },
-        {
           hid: 'refresh',
           'http-equiv': 'refresh',
           content: `0;${githubUrl}`
+        },
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex'
         }
       ],
       link: [
