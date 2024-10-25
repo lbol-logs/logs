@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  async asyncData({ params, error, payload }) {
-    return { payload };
+  async asyncData({ params, error, payload, query }) {
+    return { payload, query };
   },
   data() {
     return {
@@ -80,6 +80,16 @@ export default {
       ]
     };
   },
+  created(){
+    if (process.browser) {
+      window.addEventListener('load', () => this.onWindowLoad());
+    }
+  },
+  methods: {
+    onWindowLoad() {
+      console.log('window load event');
+    }
+  }
   // created() {
   //   console.log(window.location.href)
   // }
