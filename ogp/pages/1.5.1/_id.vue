@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    Redirecting to the <a id="link" :href="payload.url" :data-query="JSON.stringify(query)">log</a>...
+    Redirecting to the <a id="link" :href="payload.url">log</a>...
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ params, error, payload, query }) {
-    return { payload, query };
+  async asyncData({ params, error, payload }) {
+    return { payload };
   },
   data() {
     return {
@@ -87,22 +87,8 @@ export default {
   },
   methods: {
     onWindowLoad() {
-      console.log('window load event');
+      document.getElementById('link').href = href;
     }
   }
-  // created() {
-  //   console.log(window.location.href)
-  // }
 };
 </script>
-
-<!-- <script setup>
-const { payload: { url }, query } = this;
-const qs = Object.entries(query).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-const href = url + (qs ? ('?' + qs) : '');
-console.log({href})
-if (process.browser) {
-  window.location.href = href;
-  link.href = href;
-}
-</script> -->
