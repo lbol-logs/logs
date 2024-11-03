@@ -1,11 +1,9 @@
 
 /.vscode
-/ogp/static/ogp/*.png
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
-/ogp/logs
 *.log
 npm-debug.log*
 yarn-debug.log*
