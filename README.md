@@ -1,6 +1,6 @@
 # Fix log
 
-Last fixed: 2024/11/06
+Last fixed: 2024/12/20
 
 | Fixed Ver | Desc |
 | --- | --- |
