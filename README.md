@@ -1,9 +1,10 @@
 # Fix log
 
-Last fixed: 2024/12/20
+Last fixed: 2025/05/06
 
 | Fixed Ver | Desc |
 | --- | --- |
+| 2.0.0 | `opponents` and `BackgroundDancers.Options` |
 | 1.3.3 | price of restocked items with `PortalGun` |
 | 1.3.2 | `MiyoiBartender` exhibit on `Unknow Fate`|
 | 1.2.3 | double exhibits with `YizangnuoWuzhi` |
