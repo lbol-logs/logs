@@ -1,3 +1,6 @@
+# RunLog Object Reference
+[Wiki](../../wiki)
+
 # Fix log
 
 Last fixed: 2025/10/04
